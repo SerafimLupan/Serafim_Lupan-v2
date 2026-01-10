@@ -32,7 +32,6 @@ This website serves as an online CV and portfolio, presenting:
 
 ## 📁 Repository Structure
     ```bash
-
     /
     ├── client/ # Frontend application
     ├── shared/ # Shared utilities or components
