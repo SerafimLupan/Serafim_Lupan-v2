@@ -132,7 +132,7 @@ export default function Home() {
         </div>
         
         {/* Scroll Indicator */}
-        <motion.div 
+        <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 1.5 }}
           className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-primary/50"
@@ -363,7 +363,7 @@ export default function Home() {
           
           <div className="mt-12 text-center text-gray-500 text-sm">
             <p>Designed & Built by Serafim Lupan;</p>
-            <p>Copyright (c) 2022-2026 Lupan Serafim (serafimlupan.com)</p>
+            <p>Copyright (c) 2022-2026 Lupan Serafim (<a href="https://serafimlupan.com">serafimlupan.com</a> )</p>
             <p className="mt-2 font-mono text-xs opacity-50">System.Version: 1.0.2</p>
           </div>
         </div>
