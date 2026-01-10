@@ -40,43 +40,44 @@ export default function Home() {
     },
   });
 
-  const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
-    const formData = {
-      ...data,
-      access_key: "b07f0c4a-62f4-439a-8bb0-a3d8c5c945ac"
-    }
-    
-    try {
-      const response = await fetch("https://api.web3forms.com/form/b07f0c4a-62f4-439a-8bb0-a3d8c5c945ac", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Accpet" : "application/json"
-        },
-        body: JSON.stringify(formData),
-      });
-
-      const result = await response.json();
-
-      if (result.success) {
-        toast({
-          title: "Message Transmitted",
-          description: "Your encrypted message has been received.",
-          className: "bg-black border-primary text-primary font-mono",
-        });
-        form.reset();
-      } else {
-        throw new Error("Transmission Failed");
-      }
-
-    } catch (error) {
-      toast({
-        title: "Transmission Error",
-        description: "There was an error transmitting your message. Please try again later.",
-        className: "bg-black border-red-600 text-red-500 font-mono",
-      });
-    }
+const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
+  const formData = {
+    ...data,
+    access_key: "b07f0c4a-62f4-439a-8bb0-a3d8c5c945ac"
   };
+  
+  try {
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify(formData),
+    });
+
+    const result = await response.json();
+
+    if (result.success) {
+      toast({
+        title: "Message Transmitted",
+        description: "Your encrypted message has been received.",
+        className: "bg-black border-primary text-primary font-mono",
+      });
+      form.reset();
+    } else {
+      // Dacă Web3Forms returnează succes: false
+      throw new Error("API Error");
+    }
+
+  } catch (error) {
+    toast({
+      title: "Transmission Error",
+      description: "Signal lost. Please check your connection and try again.",
+      className: "bg-black border-red-600 text-red-500 font-mono",
+    });
+  }
+};
 
   return (
     <div className="min-h-screen bg-black text-gray-300 font-mono overflow-x-hidden selection:bg-primary selection:text-black">
@@ -380,7 +381,7 @@ export default function Home() {
           
           <div className="mt-12 text-center text-gray-500 text-sm">
             <p>Designed & Built by Serafim Lupan;</p>
-            <p>Copyright (c) 2022-2026 Lupan Serafim (<a href="https://serafimlupan.com">serafimlupan.com</a> )</p>
+            <p>Copyright (c) 2022-2026 Lupan Serafim (<a href="https://serafimlupan.com">serafimlupan.com</a>)</p>
             <p className="mt-2 font-mono text-xs opacity-50">System.Version: 1.1.4</p>
           </div>
         </div>
