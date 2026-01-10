@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 
 export default function NotFound() {
   const asciiArt = `
-  '7MN.  '7MF'            mm         '7MM"""YMM                                        '7MM  
-    MMN.   M              MM           MM    '7                                          MM  
-    M YMb  M  ,pW"Wq.  mmMMmm         MM   d    ,pW"Wq.  '7MM  '7MM  '7MMpMMMb.     ,M""bMM  
+  '7MN.   '7MF'            mm         '7MM"""YMM                                         '7MM  
+    MMN.    M              MM           MM    '7                                           MM  
+    M YMb   M   ,pW"Wq.  mmMMmm         MM   d    ,pW"Wq.  '7MM  '7MM  '7MMpMMMb.     ,M""bMM  
     M  'MN. M  6W'   'Wb   MM           MM""MM   6W'   'Wb   MM    MM    MM    MM   ,AP    MM  
     M   'MM.M  8M     M8   MM           MM   Y   8M     M8   MM    MM    MM    MM   8MI    MM  
     M     YMM  YA.   ,A9   MM           MM       YA.   ,A9   MM    MM    MM    MM   'Mb    MM  
