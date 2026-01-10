@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-mono: 'Fira Code', monospace;
+  
+  /* Matrix Theme Colors */
+  --background: 0 0% 0%; /* Black */
+  --foreground: 120 100% 50%; /* Terminal Green */
+  
+  --primary: 120 100% 50%;
+  --primary-foreground: 0 0% 0%;
+  
+  --secondary: 120 30% 10%; /* Dark Green background */
+  --secondary-foreground: 120 100% 50%;
+  
+  --muted: 120 20% 10%;
+  --muted-foreground: 120 60% 40%;
+  
+  --accent: 120 100% 50%;
+  --accent-foreground: 0 0% 0%;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 120 50% 20%;
+  --input: 120 50% 20%;
+  --ring: 120 100% 50%;
+
+  --radius: 0px; /* Sharp edges for cyber aesthetic */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-mono antialiased selection:bg-primary selection:text-background;
+    font-family: var(--font-mono);
+  }
+
+  /* Custom Scrollbar for Webkit */
+  ::-webkit-scrollbar {
+    width: 10px;
+    background: #000;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #003300;
+    border: 1px solid #00ff00;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00ff00;
+  }
+}
+
+@layer utilities {
+  .text-shadow-glow {
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.5), 0 0 20px rgba(0, 255, 0, 0.3);
+  }
+  
+  .box-shadow-glow {
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
+  }
+
+  .border-glow {
+    border: 1px solid rgba(0, 255, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2), inset 0 0 10px rgba(0, 255, 0, 0.1);
+  }
+  
+  /* Hacker cursor blinking */
+  .cursor-blink::after {
+    content: "█";
+    animation: blink 1s step-end infinite;
+    margin-left: 2px;
+    color: hsl(var(--primary));
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+}

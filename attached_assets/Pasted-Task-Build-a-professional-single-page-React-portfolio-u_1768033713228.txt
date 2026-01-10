@@ -1,0 +1,45 @@
+Task: Build a professional single-page React portfolio using Vite, Tailwind CSS, and Framer Motion. The design must be a high-end "Cyber Security Dashboard" similar to https://pentestgpt.com/.
+
+1. Identity & Profile (from CV):
+
+    Name: Lupan Serafim.
+
+Role: Penetration Tester | Security Researcher.
+
+Bio: Communicative, analytical, ambitious, persistent, disciplined, and punctual. Creative team player, easily adaptable to new technologies.
+
+Contact: Email: serafimlupan.web@gmail.com , GitHub: https://github.com/SerafimLupan , LinkedIn: https://linkedin.com/in/serafimlupan.
+
+Languages: Romanian (Native), Russian (High Level), English (B1), French (A2).
+
+2. Education & Achievements (from CV):
+
+    Education: Include College "Vasile Lovinescu" (Math-Info, 2025-present) , High School "Alexei Mateevici" (2020-2025) , and High School "Mihai Eminescu" (2016-2020).
+
+Achievements: 1st Place at Informatics Olympiad (County Level, 2025) , 3rd Place (Regional, 2024) , and multiple Tekwill Junior Ambassadors awards (2023-2025).
+
+Certifications (Text only): Legacy JavaScript Algorithms and Data Structures (11.2023) , Responsive Web Design (10.2023) , and Generative AI Training (10.2024).
+
+3. Web Projects (Direct Links):
+
+    REWERS Barbershop: https://www.serafimlupan.site/projects/Rewers%20BARBERSHOP%20website/index.html (12.2023-01.2024). Modern layout and booking section.
+
+    TIFS Project: https://serafimlupan.github.io/DezvoltareWeb/ (10.2022-03.2023). Web fundamentals (HTML/CSS/JS).
+
+    Vladiox Store: https://github.com/SerafimLupan (10.2022-06.2023). E-commerce furniture store concept.
+
+4. Technical Features:
+
+    Terminal: Interactive terminal with commands: ls projects, whoami, license, and download (triggers download of CV-SerafimLupan.pdf).
+
+    Animations: Use Framer Motion for scroll animations that trigger every time a section enters the viewport (once: false).
+
+    Contact Form: Implement the "INITIATE_CONTACT" form with fields: User.Name, User.Email, and Message.Payload. Ensure it is ready for Netlify/Vercel integration.
+
+    License: Add the "Copyright (c) 2022-2026 Lupan Serafim (serafimlupan.com)" proprietary notice in the footer and as a terminal command.
+
+5. Assets:
+
+    Use the provided ASCII Art for the Hero section.
+
+    Background: Matrix rain effect with low opacity.
