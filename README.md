@@ -54,25 +54,6 @@ This website serves as an online CV and portfolio, presenting:
 
 ---
 
-## 🚀 Running the Project Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/SerafimLupan/Serafim_Lupan-v2.git
-   cd Serafim_Lupan-v2
-
-2. Install dependencies:
-   ```bash
-   npm install
-
-3. Start the development server:
-   ```bash
-   npm run dev
-   
-4. Open the provided local URL in your browser.
-
----
-
 ## 📌 Features
 
 - Hero section with introduction
@@ -87,14 +68,5 @@ This website serves as an online CV and portfolio, presenting:
 
 ---
 
-## 📬 Feedback
-
-Feedback and suggestions are welcome.
-You may open an issue or fork the repository for your own customization.
-
----
-
 ## 📄 License
-
-This project includes a custom license written by me.
-Please refer to the LICENSE file in this repository for full terms and conditions.
+This project is licensed under a custom Source Code License. Unauthorized use, duplication, or distribution of this software is strictly prohibited. See the LICENSE file for full details.
