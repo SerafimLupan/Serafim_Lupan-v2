@@ -8,8 +8,7 @@ import {
   Terminal, 
   Github, 
   Download, 
-  ChevronRight, 
-  Code, 
+  ChevronRight,   Code, 
   Cpu, 
   ShieldAlert, 
   ExternalLink,
@@ -41,24 +40,42 @@ export default function Home() {
     },
   });
 
-  const onSubmit = (data: z.infer<typeof insertContactMessageSchema>) => {
-    submitContact.mutate(data, {
-      onSuccess: () => {
+  const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
+    const formData = {
+      ...data,
+      access_key: "b07f0c4a-62f4-439a-8bb0-a3d8c5c945ac"
+    }
+    
+    try {
+      const response = await fetch("https://api.web3forms.com/form/b07f0c4a-62f4-439a-8bb0-a3d8c5c945ac", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accpet" : "application/json"
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
         toast({
           title: "Message Transmitted",
           description: "Your encrypted message has been received.",
           className: "bg-black border-primary text-primary font-mono",
         });
         form.reset();
-      },
-      onError: () => {
-        toast({
-          title: "Transmission Failed",
-          description: "Signal lost. Please try again.",
-          variant: "destructive",
-        });
-      },
-    });
+      } else {
+        throw new Error("Transmission Failed");
+      }
+
+    } catch (error) {
+      toast({
+        title: "Transmission Error",
+        description: "There was an error transmitting your message. Please try again later.",
+        className: "bg-black border-red-600 text-red-500 font-mono",
+      });
+    }
   };
 
   return (
@@ -352,10 +369,10 @@ export default function Home() {
                 
                 <Button 
                   type="submit" 
-                  disabled={submitContact.isPending}
+                  disabled={form.formState.isSubmitting}
                   className="w-full bg-primary/10 text-primary border border-primary hover:bg-primary hover:text-black transition-all duration-300 py-6 text-lg font-bold rounded-none"
                 >
-                  {submitContact.isPending ? "TRANSMITTING..." : "SEND_TRANSMISSION"}
+                  {form.formState.isSubmitting ? "TRANSMITTING..." : "SEND_TRANSMISSION"}
                 </Button>
               </form>
             </Form>
