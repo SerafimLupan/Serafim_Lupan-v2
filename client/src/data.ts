@@ -111,7 +111,14 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
       url: "https://github.com/SerafimLupan",
       date: "10.2022 - 06.2023",
       description: "E-commerce furniture store concept."
+    },
+    {
+      name: "Local NetScan",
+      url: "https://github.com/SerafimLupan/Local_NetScan",
+      date: "10.01.2026",
+      description: "A professional Bash script for automated local network discovery, host identification, and port scanning."
     }
+    
   ],
 
   certifications: [
