@@ -362,8 +362,9 @@ export default function Home() {
           </Card>
           
           <div className="mt-12 text-center text-gray-500 text-sm">
-            <p>Designed & Built by Serafim Lupan</p>
-            <p className="mt-2 font-mono text-xs opacity-50">System.Version: 2.0.25</p>
+            <p>Designed & Built by Serafim Lupan;</p>
+            <p>Copyright (c) 2022-2026 Lupan Serafim (serafimlupan.com)</p>
+            <p className="mt-2 font-mono text-xs opacity-50">System.Version: 1.0.2</p>
           </div>
         </div>
       </section>
