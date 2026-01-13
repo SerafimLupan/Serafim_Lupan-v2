@@ -113,7 +113,7 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
       description: "E-commerce furniture store concept."
     },
     {
-      name: "Local NetScan",
+      name: "Local_NetScan",
       url: "https://github.com/SerafimLupan/Local_NetScan",
       date: "10.01.2026",
       description: "A professional Bash script for automated local network discovery, host identification, and port scanning."
