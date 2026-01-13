@@ -340,7 +340,8 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
                         <FormLabel className="text-primary">User.Email</FormLabel>
                         <FormControl>
                           <Input 
-                            placeholder="name@example.com" 
+                            placeholder="name@example.com"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                             {...field} 
                             className="bg-black/50 border-primary/30 focus:border-primary text-white rounded-none"
                           />
