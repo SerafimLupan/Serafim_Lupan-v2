@@ -117,8 +117,13 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
       url: "https://github.com/SerafimLupan/Local_NetScan",
       date: "10.01.2026",
       description: "A professional Bash script for automated local network discovery, host identification, and port scanning."
+    },
+    {
+      name: "CTF_HELPER",
+      url: "https://github.com/SerafimLupan/CTF_HELPER",
+      date: "02.02.2026",
+      description: "A modular automation framework inspired by HackTricks methodology, designed for streamlined CTF reconnaissance and exploitation."
     }
-    
   ],
 
   certifications: [
