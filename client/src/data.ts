@@ -121,7 +121,7 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
     {
       name: "CTF_HELPER",
       url: "https://github.com/SerafimLupan/CTF_HELPER",
-      date: "02.02.2026",
+      date: "02.02.2026 - present",
       description: "A modular automation framework inspired by HackTricks methodology, designed for streamlined CTF reconnaissance and exploitation."
     }
   ],
