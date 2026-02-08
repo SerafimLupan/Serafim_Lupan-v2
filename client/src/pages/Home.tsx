@@ -155,9 +155,19 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
           transition={{ repeat: Infinity, duration: 1.5 }}
           className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-primary/50"
         >
-          <div className="w-6 h-10 border-2 border-primary/50 rounded-full flex justify-center p-1">
-            <div className="w-1 h-2 bg-primary/50 rounded-full" />
-          </div>
+          <a 
+            href="#about" 
+            onClick={(e) => {
+              e.preventDefault();
+              document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            aria-label="Scroll to About Section"
+          >
+          
+            <div className="w-6 h-10 border-2 border-primary/50 rounded-full flex justify-center p-1">
+              <div className="w-1 h-2 bg-primary/50 rounded-full" />
+            </div>
+          </a>
         </motion.div>
       </section>
 
