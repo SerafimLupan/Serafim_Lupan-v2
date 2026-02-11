@@ -22,8 +22,15 @@ interface BlogPost {
 const BLOG_POSTS: BlogPost[] = [
   {
     id: "1",
+    title: "How I learn CYBERSECURTY",
+    date: "2026-02-11 3:10 PM",
+    summary: "How, when and where i learnd CYBERSECURTY?",
+    content: "## When did I start learning CYBERSECURITY? \n\n Well, I started learning the field of Cyber Security at the end of 2023. \n\n ## Where did I learn and where am I learning now? \n\n There are many platforms and sources where I learned, such as: \n * [TryHackMe](https://tryhackme.com) \n * [CyberEdu](https://cyber-edu.co)"
+  },
+  {
+    id: "2",
     title: "My progress in CYBERSECURITY",
-    date: "2026-02-11",
+    date: "2026-02-11 11:25 PM",
     summary: "What is going on with my CYBERSECURITY learning journey?",
     content: "## My Progress \n\n Well, is fun. Today I implemnted the **blog section** to be able to note my progress on the path to learning and progressing in **CYBERSECURITY**"
   }
