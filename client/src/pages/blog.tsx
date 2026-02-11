@@ -23,9 +23,9 @@ const BLOG_POSTS: BlogPost[] = [
   {
     id: "1",
     title: "How I learn CYBERSECURTY",
-    date: "2026-02-11 3:10 PM",
+    date: "2026-02-11 8:25 PM",
     summary: "How, when and where i learnd CYBERSECURTY?",
-    content: "## When did I start learning CYBERSECURITY? \n\n Well, I started learning the field of Cyber Security at the end of 2023. \n\n ## Where did I learn and where am I learning now? \n\n There are many platforms and sources where I learned, such as: \n * [TryHackMe](https://tryhackme.com) \n * [CyberEdu](https://cyber-edu.co)"
+    content: "## When did I start learning CYBERSECURITY? \n\n Well, I started learning the field of Cyber Security at the end of 2023. \n\n ## Where did I learn and where am I learning now? \n\n There are many platforms and sources where I learned, such as: \n * [TryHackMe](https://tryhackme.com) \n * [CyberEdu](https://cyber-edu.co) \n * [HackTheBox](https://hackthebox.com) \n * [HackerRank](https://www.hackerrank.com) \n\n ## Where am I currently studying and what am I learning? \n\n I am currently participating in [UNbreakable Romania Bootcamp - 2026 Edition](https://app.cyber-edu.co/competition/unr26-bootcamp?tenant=unbreakable) and [UNbreakable Romania Teams - 2026 Edition](https://app.cyber-edu.co/competition/unr26-echipe?tenant=unbreakable). I am participating because I want to gain experience and develop in the field. \n\n ## Where would I like to participate in the future? \n\n In the future I want to participate in the **County Cybersecurity Olympiad** and **ROCSC 2026 - Qualification**"
   },
   {
     id: "2",
