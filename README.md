@@ -64,6 +64,8 @@ This website serves as an online CV and portfolio, presenting:
 
 - Projects showcase
 
+- Blog
+
 - Contact and social links
 
 ---
