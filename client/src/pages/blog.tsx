@@ -22,17 +22,10 @@ interface BlogPost {
 const BLOG_POSTS: BlogPost[] = [
   {
     id: "1",
-    title: "Infiltrating the Mainframe",
-    date: "2026-02-10",
-    summary: "A deep dive into modern buffer overflow protection bypasses.",
-    content: "# Tutorial \n\n Acest text este scris în **Markdown**. Poți edita conținutul aici."
-  },
-  {
-    id: "2",
-    title: "The Silent Watcher: AI in SecOps",
-    date: "2026-01-25",
-    summary: "How machine learning models are detecting anomalies faster than humans.",
-    content: "Content for post 2..."
+    title: "My progress in CYBERSECURITY",
+    date: "2026-02-11",
+    summary: "What is going on with my CYBERSECURITY learning journey?",
+    content: "## My Progress \n\n Well, is fun. Today I implemnted the **blog section** to be able to note my progress on the path to learning and progressing in **CYBERSECURITY**"
   }
 ];
 
