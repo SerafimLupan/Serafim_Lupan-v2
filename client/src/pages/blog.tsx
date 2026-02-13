@@ -230,6 +230,20 @@ Well, yesterday, February 12th, for the preparation of **UNbreakable in Bootcamp
     >> - Valuable experience for your CV
 
 * **The future of security careers** - Cybersecurity is one of the safest career fields. The demand for specialists is growing faster than the supply, and technology will continue to evolve, constantly creating new needs.
+
+\n\n ### Module 6 Developing a Business or Startup in Cybersecurity \n\n Terms like:
+* **What is a Startup?** - A startup is a company, partnership, or temporary organization that exists to seek a replicable and scalable business model. An important characteristic that differentiates a startup from a company at the beginning of its journey is the potential for exponential growth, which is why, generally, when we hear the term startup, we think of a company that develops technology.
+* **What are the development stages that a startup goes through?**
+
+    - 1 Finding the idea
+    - 2 Forming the team
+    - 3 Market testing
+    - 4 Creating a prototype
+    - 5 Developing the business model
+    - 6 **Developing the marketing strategy** - The marketing strategy describes the way in which the startup aims to sustainably develop its competitive advantage over the long term, by understanding and serving customer needs.
+    - 7 **Attracting funding** - In order to test product and business hypotheses more quickly, to grow faster, and to develop a valuable team more quickly, startups may choose to attract external funding.
+    - 8 **Scaling** - After a startup reaches the point of product-market fit (proving that it is developing a valuable product that is bought by a large enough category of people or companies so that the company can be profitable) it is time for the team to focus on scaling the business.
+    - 9 Exit strategy
     `    
   },
   {
