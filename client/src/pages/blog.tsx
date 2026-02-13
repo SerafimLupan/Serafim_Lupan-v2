@@ -28,19 +28,19 @@ const BLOG_POSTS: BlogPost[] = [
 ## My Progress
 Well, yesterday, February 12th, for the preparation of **UNbreakable in Bootcamp** I continued the course I started on February 11th. I finished Modules 3, 4, 5 and 6, all in one evening from 9 PM to around 12 AM. Modules 3 and 4 were from the **\"Threats\"** category, and 5 and 6 from the **\"Career\"** category. It was very informative, I did a speedrun, the fact that I didn't write it down in a notebook saved me some time, I mean if you still have and write down the terms, some information, well the same situation was repeated as with Module 2 that I had learned in one evening, because I had written down the terms in my notebook, and rightly so because Module 2 had many terms and their definitions.\n\n ### Module 3 Social Engineering Attacks and Techniques \n\n Terms such as: \n * **What are social engineering attacks and techniques?** - Social engineering is the term used to summarize all malicious activities carried out through human interactions. Social engineering techniques are built on the basis of psychological manipulation methods and applied by attackers or malicious employees with the aim of obtaining unauthorized access, critical data or executing illicit money transfers. \n * **What are the steps in a social engineering attack?** \n * **Social engineering attack techniques** \n * **Baiting** - Baiting attacks use a false promise to pique the victim's greed or curiosity. This technique aims to lure users into a trap that steals their personal information or infects their operating systems with malware. \n * **Scareware** - This type of attack involves bombarding victims with false alarms and fictitious threats. Users are tricked into believing that their system is infected with malware, leading them to install software that has no real benefit, software that is malware in itself. \n * **Pretexting** - This attack involves obtaining information through a series of clever lies. \n * **Phishing** - This type of attack is one of the most popular social engineering techniques, which represents a great risk for small and large companies, therefore training employees in this direction is a vital step. \n * **Spear phishing** - This type of attack is very similar in execution to phishing attack techniques, the difference between them is that spear phishing involves an additional step, namely obtaining information about the potential victim, which can be a system, individual, company, etc., using technologies and tools such as: OSINT, Shodan, Frida, etc. \n * **Methods for preventing social engineering attacks** - Social engineers manipulate human feelings, such as curiosity or fear, to carry out attack schemes and lure victims into their traps, therefore, be careful whenever you feel alarmed by an email, attracted by an offer displayed on a website, etc. \n\n ### Module 4 Modern Threats: Gaming, Disinformation, and Deepfakes \n\n Terms like:
 * **Why are these threats important to you?** - For starters, as a student or college student, you probably spend a lot of time online: playing games, using social media, watching news and video content. It is essential to understand the modern threats that can directly affect you.
-* **1. Threats in gaming**
+* **1. Threats in gaming**:
   * Account hijacking
   * Cheating and malware in games
   * Scams in item trading
-* **2. Online disinformation and manipulation** - Disinformation is not just about fake news - it is a cyber weapon used to manipulate opinions, influence elections, create panic, or destroy reputations. Understanding this phenomenon is part of cybersecurity.
+* **2. Online disinformation and manipulation** - Disinformation is not just about fake news - it is a cyber weapon used to manipulate opinions, influence elections, create panic, or destroy reputations. Understanding this phenomenon is part of cybersecurity:
   * What is disinformation?
   * Disinformation techniques
   * How to identify disinformation?
-* **3. Deepfakes: Reality in Danger** - Deepfakes are videos or images created with artificial intelligence that look extremely realistic. The technology has become so advanced that it is almost impossible to distinguish a deepfake from a real video without specialized tools.
+* **3. Deepfakes: Reality in Danger** - Deepfakes are videos or images created with artificial intelligence that look extremely realistic. The technology has become so advanced that it is almost impossible to distinguish a deepfake from a real video without specialized tools:
   * What are deepfakes?
   * Risks and malicious uses
   * How to identify deepfakes?
-* Protection and responsibility
+* **Protection and responsibility**:
   * **Why will these threats increase in the future?**
   * **More accessible AI** - The technology is becoming cheaper and easier to use
   * **New platforms** - Every new platform (metaverse, VR, etc.) brings new vulnerabilities
@@ -48,6 +48,49 @@ Well, yesterday, February 12th, for the preparation of **UNbreakable in Bootcamp
   * **Information warfare** - Nation states use disinformation as a weapon
 ---
 
+\n\n ### Module 5 Career Paths and Specializations in Cybersecurity \n\n Terms like:
+* **Why are there so many options?** - For Beginners Cybersecurity is a vast field with many different niches. You don't have to know everything - in fact, specialization is often more valuable than general knowledge. Find your passion and build expertise there!
+* **Main Career Categories**: 
+
+    > **1. Red Team (Ethical Attackers / Penetration Testing)**: 
+    >> What they do: Simulate attacks to test system security 
+    >> 
+    >> * **Penetration Tester** - Tests the security of applications, networks, systems 
+    >> * **Ethical Hacker** - Finds vulnerabilities legally and ethically 
+    >> * **Bug Bounty Hunter** - Searches for vulnerabilities for financial rewards 
+    >> * **Red Team Operator** - Be part of a team that simulates real attackers \n\n 
+    >> 
+    >> Skills needed: Programming, networking, operating systems, creativity, lateral thinking 
+    >> 
+    >> Average salary (Romania): 5,000-15,000 RON/month (junior-mid), 15,000-30,000+ RON/month (senior) 
+    >> 
+    >> Perfect for: People who love puzzles, creative thinking, and want to "break" things (legally!) 
+
+    > **2. Blue Team (Defenders / Security Operations)** 
+    >> 
+    >> What they do: Protect organizations from attacks, monitor and respond to incidents 
+    >> 
+    >> * **Security Analyst** - Monitors systems for threats, analyzes alerts 
+    >> * **SOC Analyst** - Works in the Security Operations Center, the first line of defense 
+    >> * **Incident Response Specialist** - Responds to active cyber attacks 
+    >> * **Threat Hunter** - Actively searches for hidden threats in systems 
+    >> * **Security Engineer** - Builds and maintains security systems \n\n 
+    >> 
+    >> Skills needed: Networking, operating systems, log analysis, SIEM tools, patience 
+    >> 
+    >> Average salary (Romania): 5,000-15,000 RON/month (junior), 15,000-30,000+ RON/month (senior) 
+    >> 
+    >> Perfect for: Organized, detail-oriented people who want to protect and help 
+
+    > **3. Purple Team (Hybrid)**
+    >>
+    >>What they do: Combine attack and defense to improve security
+    >>
+    >> * **Security Consultant** - Provides strategic security consulting
+    >> * **Security Architect** - Designs security architectures
+    >> * **DevSecOps Engineer** - Integrates security into the development process \n\n
+    >>
+    >> Perfect for: People who understand both attack and defense and want to build solutions
 
     `    
   },
@@ -63,7 +106,7 @@ Well, yesterday, February 12th, for the preparation of **UNbreakable in Bootcamp
     title: "How I learn CYBERSECURTY",
     date: "2026-02-11 8:25 PM",
     summary: "How, when and where I learnd CYBERSECURTY?",
-    content: "## When did I start learning CYBERSECURITY?  \n\n --- \n\n Well, I started learning the field of Cyber Security at the end of 2023. \n\n --- \n\n ## Where did I learn and where am I learning now? \n\n There are many platforms and sources where I learned, such as: \n * [TryHackMe](https://tryhackme.com) \n * [CyberEdu](https://cyber-edu.co) \n * [HackTheBox](https://hackthebox.com) \n * [HackerRank](https://www.hackerrank.com) \n\n ## Where am I currently studying and what am I learning? \n\n I am currently participating in [UNbreakable Romania Bootcamp - 2026 Edition](https://app.cyber-edu.co/competition/unr26-bootcamp?tenant=unbreakable) and [UNbreakable Romania Teams - 2026 Edition](https://app.cyber-edu.co/competition/unr26-echipe?tenant=unbreakable). I am participating because I want to gain experience and develop in the field. \n\n ## Where would I like to participate in the future? \n\n In the future I want to participate in the **County Cybersecurity Olympiad** and **ROCSC 2026 - Qualification**"
+    content: "## When did I start learning CYBERSECURITY? \n\n Well, I started learning the field of Cyber Security at the end of 2023. \n\n --- \n\n ## Where did I learn and where am I learning now? \n\n There are many platforms and sources where I learned, such as: \n * [TryHackMe](https://tryhackme.com) \n * [CyberEdu](https://cyber-edu.co) \n * [HackTheBox](https://hackthebox.com) \n * [HackerRank](https://www.hackerrank.com) \n\n ## Where am I currently studying and what am I learning? \n\n I am currently participating in [UNbreakable Romania Bootcamp - 2026 Edition](https://app.cyber-edu.co/competition/unr26-bootcamp?tenant=unbreakable) and [UNbreakable Romania Teams - 2026 Edition](https://app.cyber-edu.co/competition/unr26-echipe?tenant=unbreakable). I am participating because I want to gain experience and develop in the field. \n\n ## Where would I like to participate in the future? \n\n In the future I want to participate in the **County Cybersecurity Olympiad** and **ROCSC 2026 - Qualification**"
   },
   {
     id: "4",
