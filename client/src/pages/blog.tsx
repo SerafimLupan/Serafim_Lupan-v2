@@ -25,11 +25,10 @@ const BLOG_POSTS: BlogPost[] = [
     date: "2026-02-12 12:10 PM",
     summary: "What is going on with my CYBERSECURITY learning journey?",
     content: `
-      ## My Progress
-      Well, yesterday, February 12th, for the preparation of **UNbreakable in Bootcamp**
+## My Progress
+Well, yesterday, February 12th, for the preparation of **UNbreakable in Bootcamp**
     
-    `
-    
+    `    
   },
   {
     id: "2",
