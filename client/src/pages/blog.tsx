@@ -22,7 +22,7 @@ const BLOG_POSTS: BlogPost[] = [
   {
     id: "1",
     title: "My progress in CYBERSECURITY",
-    date: "2026-02-13 1:10 PM",
+    date: "2026-02-13 1:30 PM",
     summary: "What is going on with my CYBERSECURITY learning journey?",
     content: `
 ## My Progress
