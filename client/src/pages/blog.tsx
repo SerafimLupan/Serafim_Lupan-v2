@@ -46,6 +46,7 @@ Well, yesterday, February 12th, for the preparation of **UNbreakable in Bootcamp
   * **New platforms** - Every new platform (metaverse, VR, etc.) brings new vulnerabilities
   * **Growing gaming ecosystem** - As gaming grows, the more attractive it becomes for attackers
   * **Information warfare** - Nation states use disinformation as a weapon
+  
 ---
 
 \n\n ### Module 5 Career Paths and Specializations in Cybersecurity \n\n Terms like:
@@ -92,102 +93,58 @@ Well, yesterday, February 12th, for the preparation of **UNbreakable in Bootcamp
     >>
     >> Perfect for: People who understand both attack and defense and want to build solutions
     
-    \n\n ### Module 5 Career Paths and Specializations in Cybersecurity \n\n Terms like:
-* **Why are there so many options?** - For Beginners Cybersecurity is a vast field with many different niches. You don't have to know everything - in fact, specialization is often more valuable than general knowledge. Find your passion and build expertise there!
-* **Main Career Categories**: 
-
-    > **1. Red Team (Ethical Attackers / Penetration Testing)**: 
-    >> What they do: Simulate attacks to test system security 
-    >> 
-    >> * **Penetration Tester** - Tests the security of applications, networks, systems 
-    >> * **Ethical Hacker** - Finds vulnerabilities legally and ethically 
-    >> * **Bug Bounty Hunter** - Searches for vulnerabilities for financial rewards 
-    >> * **Red Team Operator** - Be part of a team that simulates real attackers \n\n 
-    >> 
-    >> Skills needed: Programming, networking, operating systems, creativity, lateral thinking 
-    >> 
-    >> Average salary (Romania): 5,000-15,000 RON/month (junior-mid), 15,000-30,000+ RON/month (senior) 
-    >> 
-    >> Perfect for: People who love puzzles, creative thinking, and want to "break" things (legally!) 
-
-    > **2. Blue Team (Defenders / Security Operations)** 
-    >> 
-    >> What they do: Protect organizations from attacks, monitor and respond to incidents 
-    >> 
-    >> * **Security Analyst** - Monitors systems for threats, analyzes alerts 
-    >> * **SOC Analyst** - Works in the Security Operations Center, the first line of defense 
-    >> * **Incident Response Specialist** - Responds to active cyber attacks 
-    >> * **Threat Hunter** - Actively searches for hidden threats in systems 
-    >> * **Security Engineer** - Builds and maintains security systems \n\n 
-    >> 
-    >> Skills needed: Networking, operating systems, log analysis, SIEM tools, patience 
-    >> 
-    >> Average salary (Romania): 5,000-15,000 RON/month (junior), 15,000-30,000+ RON/month (senior) 
-    >> 
-    >> Perfect for: Organized, detail-oriented people who want to protect and help 
-
-    > **3. Purple Team (Hybrid)**
-    >>
-    >>What they do: Combine attack and defense to improve security
-    >>
-    >> * **Security Consultant** - Provides strategic security consulting
-    >> * **Security Architect** - Designs security architectures
-    >> * **DevSecOps Engineer** - Integrates security into the development process \n\n
-    >>
-    >> Perfect for: People who understand both attack and defense and want to build solutions
-    
     > **4. Technical Specializations**
-    >> * **Web Application Security**
+    >> * **Web Application Security** \n\n
     >> - Web Vulnerability Expertise (OWASP Top 10)
     >> - Web Application Security Testing
-    >> - Perfect if you love web programming
+    >> - Perfect if you love web programming \n\n
     >>
-    >> * **Mobile Security**
+    >> * **Mobile Security** \n\n
     >> - Mobile Application Security (iOS, Android)
     >> - Mobile Malware Analysis
-    >> - Perfect if you're passionate about mobile
+    >> - Perfect if you're passionate about mobile \n\n
     >>
-    >> * **Cloud Security**
+    >> * **Cloud Security** \n\n
     >> - Cloud Infrastructure Security (AWS, Azure, GCP)
     >> - Highly sought after in the future - the cloud is growing rapidly
-    >> - Perfect for the future - everything is moving to the cloud
+    >> - Perfect for the future - everything is moving to the cloud \n\n
     >>
-    >> * **Cryptography**
+    >> * **Cryptography** \n\n
     >> - Cryptographic Algorithm Development and Analysis
     >> - Highly technical, requires advanced mathematics
-    >> - Perfect if you love math and complex puzzles
+    >> - Perfect if you love math and complex puzzles \n\n
     >>
-    >> * **Reverse Engineering & Malware Analysis**
+    >> * **Reverse Engineering & Malware Analysis** \n\n
     >> - Analyze malware to understand how it works
     >> - Malicious code disassembly and debugging
-    >> - Perfect if you're passionate about low-level programming
+    >> - Perfect if you're passionate about low-level programming \n\n
     >>
-    >> * **Digital Forensics**
+    >> * **Digital Forensics** \n\n
     >> - Digital investigations, evidence analysis
     >> - Work with the police or private companies
-    >> - Perfect if you like solving mysteries and finding evidence
+    >> - Perfect if you like solving mysteries and finding evidence \n\n
     >>
-    >> * **IoT Security**
+    >> * **IoT Security** \n\n
     >> - Security of IoT devices (smart home, wearables, etc.)
     >> - Fast growing field
-    >> - Perfect if you are passionate about hardware and embedded systems
+    >> - Perfect if you are passionate about hardware and embedded systems \n\n
     >>
 
-    > **5. Non-Technical Careers (But Still Important!)**
+    > **5. Non-Technical Careers (But Still Important!)** \n\n
     >> * **Security Awareness & Training**
     >> - Educate people about security
     >> - Develop training programs
-    >> - Perfect if you like teaching and communicating
+    >> - Perfect if you like teaching and communicating \n\n
     >>
-    >> * **Compliance & Risk Management**
+    >> * **Compliance & Risk Management** \n\n
     >> - Ensure compliance with regulations (GDPR, etc.)
     >> - Assess security risks
-    >> - Perfect if you are organized and like working with processes
+    >> - Perfect if you are organized and like working with processes \n\n
     >>
-    >> * **Security Sales & Business Development**
+    >> * **Security Sales & Business Development** \n\n
     >> - Sell security solutions
     >> - Build customer relationships
-    >> - Perfect if you are sociable and like business
+    >> - Perfect if you are sociable and like business \n\n
     
 * **Emerging Niches in the Future**
 
@@ -202,34 +159,37 @@ Well, yesterday, February 12th, for the preparation of **UNbreakable in Bootcamp
     
 * **Career Development: From Beginner to Expert**
 
-    > **Typical Levels**
+    > **Typical Levels** \n\n
     >>
     >> - Junior (0-2 years) - Learn, work under supervision, solve simple problems
     >> - Mid-level (2-5 years) - Work independently, solve complex problems, maintain systems
     >> - Senior (5-10 years) - Design solutions, maintain teams, work on strategic problems
-    >> - Expert/Principal (10+ years) - Set technical direction, research, innovate
-    > **Useful (but not mandatory!) Certifications**
+    >> - Expert/Principal (10+ years) - Set technical direction, research, innovate \n\n
+    
+    > **Useful (but not mandatory!) Certifications** \n\n
     >>
     >> - For beginners: CompTIA Security+, CEH (Certified Ethical Hacker)
     >> - For intermediates: OSCP (Offensive Security), CISSP, GSEC
     >> - For advanced: OSCE, GSE, SANS certifications
-    >> - Important note: Certifications help, but practical experience and portfolio are more important!
+    >> - Important note: Certifications help, but practical experience and portfolio are more important! \n\n
 
 * **Opportunities in Romania vs International**
 
-    > **Romanian market**
+    > **Romanian market** \n\n
     >> - Fast growing market
     >> - Many international companies have teams in Romania
     >> - Competitive salaries for the regional level
-    >> - Remote work opportunities for international companies
+    >> - Remote work opportunities for international companies \n\n
 
-    > **International opportunities**
+    > **International opportunities** \n\n
     >> - Higher salaries in the USA, Switzerland, UK
     >> - More specialization opportunities
     >> - Possibility of relocation or remote work
-    >> - Valuable experience for your CV
+    >> - Valuable experience for your CV \n\n
 
 * **The future of security careers** - Cybersecurity is one of the safest career fields. The demand for specialists is growing faster than the supply, and technology will continue to evolve, constantly creating new needs.
+
+---
 
 \n\n ### Module 6 Developing a Business or Startup in Cybersecurity \n\n Terms like:
 * **What is a Startup?** - A startup is a company, partnership, or temporary organization that exists to seek a replicable and scalable business model. An important characteristic that differentiates a startup from a company at the beginning of its journey is the potential for exponential growth, which is why, generally, when we hear the term startup, we think of a company that develops technology.
