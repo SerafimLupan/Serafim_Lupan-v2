@@ -129,23 +129,22 @@ Well, yesterday, February 12th, for the preparation of **UNbreakable in Bootcamp
     >>> - Security of IoT devices (smart home, wearables, etc.)
     >>> - Fast growing field
     >>> - Perfect if you are passionate about hardware and embedded systems \n\n
-    >>>
 
     > **5. Non-Technical Careers (But Still Important!)** \n\n
-    >> * **Security Awareness & Training**
-    >> - Educate people about security
-    >> - Develop training programs
-    >> - Perfect if you like teaching and communicating \n\n
-    >>
-    >> * **Compliance & Risk Management** \n\n
-    >> - Ensure compliance with regulations (GDPR, etc.)
-    >> - Assess security risks
-    >> - Perfect if you are organized and like working with processes \n\n
-    >>
+    >> * **Security Awareness & Training** \n\n
+    >>> - Educate people about security
+    >>> - Develop training programs
+    >>> - Perfect if you like teaching and communicating \n\n
+    
+    >> * **Compliance & Risk Management** \n\n 
+    >>> - Ensure compliance with regulations (GDPR, etc.)
+    >>> - Assess security risks
+    >>> - Perfect if you are organized and like working with processes \n\n
+    
     >> * **Security Sales & Business Development** \n\n
-    >> - Sell security solutions
-    >> - Build customer relationships
-    >> - Perfect if you are sociable and like business \n\n
+    >>> - Sell security solutions
+    >>> - Build customer relationships
+    >>> - Perfect if you are sociable and like business \n\n
     
 * **Emerging Niches in the Future**
 
