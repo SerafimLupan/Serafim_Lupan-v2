@@ -272,32 +272,40 @@ export default function Blog() {
           ) : (
             // Vizualizare postare individuală
             <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              className="bg-black/40 backdrop-blur-md p-8 border border-primary/20"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        className="bg-black/40 backdrop-blur-md p-8 border border-primary/20"
             >
-              <Button 
-                variant="ghost" 
-                onClick={() => setSelectedPost(null)}
-                className="mb-8 text-primary hover:text-white hover:bg-primary/10 p-0"
-              >
-                <ChevronLeft className="mr-2 h-4 w-4" /> RETURN_TO_FILES
-              </Button>
+                  <Button 
+                          variant="ghost" 
+                          onClick={() => setSelectedPost(null)}
+                          className="mb-8 text-primary hover:text-white hover:bg-primary/10 p-0"
+                  >
+                          <ChevronLeft className="mr-2 h-4 w-4" /> RETURN_TO_FILES
+                  </Button>
 
-              <div className="mb-8">
-                <h1 className="text-4xl font-bold text-white mb-4">
-                  <GlitchText text={selectedPost.title} />
-                </h1>
-                <div className="text-primary text-sm font-bold border-b border-primary/20 pb-4">
-                  TIMESTAMP: {selectedPost.date}
-                </div>
-              </div>
+                  <div className="mb-8">
+                    <h1 className="text-4xl font-bold text-white mb-4">
+                      <GlitchText text={selectedPost.title} />
+                    </h1>
+                    <div className="text-primary text-sm font-bold border-b border-primary/20 pb-4">
+                      TIMESTAMP: {selectedPost.date}
+                    </div>
+                  </div>
 
-              <div className="prose prose-invert prose-primary max-w-none 
-                prose-headings:text-primary prose-strong:text-white prose-code:text-primary-foreground prose-code:bg-primary/20 prose-code:px-1">
-                <ReactMarkdown>{selectedPost.content}</ReactMarkdown>
-              </div>
-            </motion.div>
+                  <div className="prose prose-invert prose-primary max-w-none  
+                                  prose-headings:text-primary 
+                                  prose-strong:text-white 
+                                  prose-code:text-primary-foreground 
+                                  prose-code:bg-primary/20 
+                                  prose-code:px-1
+                                  prose-blockquote:border-l-0 
+                                  prose-blockquote:pl-10 
+                                  prose-blockquote:italic
+                                  prose-blockquote:text-gray-400">
+                    <ReactMarkdown>{selectedPost.content}</ReactMarkdown>
+                  </div>
+          </motion.div>
           )}
 
         </div>
