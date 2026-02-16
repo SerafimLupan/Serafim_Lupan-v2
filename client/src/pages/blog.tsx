@@ -62,11 +62,11 @@ Well, yesterday, February 12th, for the preparation of **UNbreakable in Bootcamp
     >> * **Bug Bounty Hunter** - Searches for vulnerabilities for financial rewards 
     >> * **Red Team Operator** - Be part of a team that simulates real attackers \n\n 
     >> 
-    >> Skills needed: Programming, networking, operating systems, creativity, lateral thinking 
+    >> Skills needed: Programming, networking, operating systems, creativity, lateral thinking \n\n
     >> 
-    >> Average salary (Romania): 5,000-15,000 RON/month (junior-mid), 15,000-30,000+ RON/month (senior) 
+    >> Average salary (Romania): 5,000-15,000 RON/month (junior-mid), 15,000-30,000+ RON/month (senior) \n\n
     >> 
-    >> Perfect for: People who love puzzles, creative thinking, and want to "break" things (legally!) 
+    >> Perfect for: People who love puzzles, creative thinking, and want to "break" things (legally!)  \n\n
 
     > **2. Blue Team (Defenders / Security Operations)** 
     >> 
@@ -82,7 +82,7 @@ Well, yesterday, February 12th, for the preparation of **UNbreakable in Bootcamp
     >> 
     >> Average salary (Romania): 5,000-15,000 RON/month (junior), 15,000-30,000+ RON/month (senior) 
     >> 
-    >> Perfect for: Organized, detail-oriented people who want to protect and help 
+    >> Perfect for: Organized, detail-oriented people who want to protect and help \n\n
 
     > **3. Purple Team (Hybrid)**
     >>
@@ -92,44 +92,44 @@ Well, yesterday, February 12th, for the preparation of **UNbreakable in Bootcamp
     >> * **Security Architect** - Designs security architectures
     >> * **DevSecOps Engineer** - Integrates security into the development process \n\n
     >>
-    >> Perfect for: People who understand both attack and defense and want to build solutions
+    >> Perfect for: People who understand both attack and defense and want to build solutions \n\n
     
     > **4. Technical Specializations**
     >> * **Web Application Security** \n\n
-    >> - Web Vulnerability Expertise (OWASP Top 10)
-    >> - Web Application Security Testing
-    >> - Perfect if you love web programming \n\n
-    >>
+    >>> - Web Vulnerability Expertise (OWASP Top 10)
+    >>> - Web Application Security Testing
+    >>> - Perfect if you love web programming \n\n
+    
     >> * **Mobile Security** \n\n
-    >> - Mobile Application Security (iOS, Android)
-    >> - Mobile Malware Analysis
-    >> - Perfect if you're passionate about mobile \n\n
-    >>
+    >>> - Mobile Application Security (iOS, Android)
+    >>> - Mobile Malware Analysis
+    >>> - Perfect if you're passionate about mobile \n\n
+    
     >> * **Cloud Security** \n\n
-    >> - Cloud Infrastructure Security (AWS, Azure, GCP)
-    >> - Highly sought after in the future - the cloud is growing rapidly
-    >> - Perfect for the future - everything is moving to the cloud \n\n
-    >>
+    >>> - Cloud Infrastructure Security (AWS, Azure, GCP)
+    >>> - Highly sought after in the future - the cloud is growing rapidly
+    >>> - Perfect for the future - everything is moving to the cloud \n\n
+    
     >> * **Cryptography** \n\n
-    >> - Cryptographic Algorithm Development and Analysis
-    >> - Highly technical, requires advanced mathematics
-    >> - Perfect if you love math and complex puzzles \n\n
-    >>
+    >>> - Cryptographic Algorithm Development and Analysis
+    >>> - Highly technical, requires advanced mathematics
+    >>> - Perfect if you love math and complex puzzles \n\n
+    
     >> * **Reverse Engineering & Malware Analysis** \n\n
-    >> - Analyze malware to understand how it works
-    >> - Malicious code disassembly and debugging
-    >> - Perfect if you're passionate about low-level programming \n\n
-    >>
+    >>> - Analyze malware to understand how it works
+    >>> - Malicious code disassembly and debugging
+    >>> - Perfect if you're passionate about low-level programming \n\n
+    
     >> * **Digital Forensics** \n\n
-    >> - Digital investigations, evidence analysis
-    >> - Work with the police or private companies
-    >> - Perfect if you like solving mysteries and finding evidence \n\n
-    >>
+    >>> - Digital investigations, evidence analysis
+    >>> - Work with the police or private companies
+    >>> - Perfect if you like solving mysteries and finding evidence \n\n
+    
     >> * **IoT Security** \n\n
-    >> - Security of IoT devices (smart home, wearables, etc.)
-    >> - Fast growing field
-    >> - Perfect if you are passionate about hardware and embedded systems \n\n
-    >>
+    >>> - Security of IoT devices (smart home, wearables, etc.)
+    >>> - Fast growing field
+    >>> - Perfect if you are passionate about hardware and embedded systems \n\n
+    >>>
 
     > **5. Non-Technical Careers (But Still Important!)** \n\n
     >> * **Security Awareness & Training**
