@@ -20,7 +20,7 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
-    id: "1",
+    id: "5",
     title: "Top 10 tool from Kali Linux for CTFs ",
     date: "2026-02-19 2:25 PM",
     summary: "A presentation of top 10 tool from Kali Linux for CTFs",
@@ -68,7 +68,7 @@ Technically a web-based utility (but pre-installed/bookmarked in Kali), CyberChe
   `
   },
   {
-    id: "2",
+    id: "4",
     title: "My progress in CYBERSECURITY",
     date: "2026-02-13 1:30 PM",
     summary: "What is going on with my CYBERSECURITY learning journey?",
