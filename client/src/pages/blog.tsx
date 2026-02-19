@@ -25,23 +25,23 @@ const BLOG_POSTS: BlogPost[] = [
     date: "2026-02-19 2:25 PM",
     summary: "A presentation of top 10 tool from Kali Linux for CTFs",
     content: `
-In the world of Capture The Flag (CTF) competitions, your speed and familiarity with your toolkit are just as important as your technical knowledge. Kali Linux comes pre-loaded with hundreds of tools, but these 10 are the "bread and butter" for solving challenges across most categories.
+In the world of Capture The Flag (CTF) competitions, your speed and familiarity with your toolkit are just as important as your technical knowledge. Kali Linux comes pre-loaded with hundreds of tools, but these 10 are the \"bread and butter\" for solving challenges across most categories.
 
  \n\n --- \n\n
 
 ### 1. Nmap (Network Mapper) \n\n
-The undisputed king of Reconnaissance. In "Boot-to-Root" or network-based CTFs, Nmap is almost always your first step. It helps you discover open ports, services, and OS versions.
+The undisputed king of Reconnaissance. In "Boot-to-Root" or network-based CTFs, Nmap is almost always your first step. It helps you discover open ports, services, and OS versions. \n
     * CTF Pro Tip: Use the -sC -sV flags to run default scripts and version detection simultaneously. \n\n
 
 ### 2. Burp Suite \n\n
-The go-to tool for Web Exploitation. It acts as a proxy between your browser and the target server, allowing you to intercept, modify, and replay HTTP requests.
+The go-to tool for Web Exploitation. It acts as a proxy between your browser and the target server, allowing you to intercept, modify, and replay HTTP requests. \n
     * Key Feature: The Repeater module is essential for manually testing payloads on a specific web form or header. \n\n
 
 ### 3. Ghidra / Radare2 \n\n
 Essential for Reverse Engineering (RE). Ghidra (developed by the NSA) provides a powerful decompiler that turns complex binary code back into human-readable C-like code. If you prefer the command line, Radare2 is its lightweight, high-speed rival.
 
 ### 4. Pwntools \n\n
-A Python library specifically designed for Binary Exploitation (Pwn). It automates the "boring" parts of exploit development, like converting integers to little-endian strings or managing remote socket connections.
+A Python library specifically designed for Binary Exploitation (Pwn). It automates the \"boring\" parts of exploit development, like converting integers to little-endian strings or managing remote socket connections.
     * Best For: Creating rapid scripts to send overflow payloads to a vulnerable service. \n\n
 
 ### 5. Wireshark \n\n
@@ -52,18 +52,18 @@ The heavy hitters for Password Cracking. When you find a hash (MD5, SHA256, etc.
     * Distinction: Use Hashcat if you have a powerful GPU; use John for quick CPU-based cracking. \n\n
 
 ### 7. SQLmap \n\n
-An automated tool for Database Exploitation. If you find a potential SQL injection point, SQLmap can automatically dump the entire database, find the "users" table, and extract the flag for you. \n\n
+An automated tool for Database Exploitation. If you find a potential SQL injection point, SQLmap can automatically dump the entire database, find the \"users\" table, and extract the flag for you. \n\n
 
 ### 8. Binwalk / ExifTool \n\n
 The primary tools for Forensics and Steganography. \n
     * Binwalk: Scans files (like images) for hidden embedded files (like a secret ZIP or another image). \n
-    * ExifTool: Reads the metadata of a file, where flags are often hidden in the "Comment" or "Author" fields. \n\n
+    * ExifTool: Reads the metadata of a file, where flags are often hidden in the \"Comment\" or \"Author\" fields. \n\n
 
 ### 9. Metasploit Framework (MSF) \n\n
-The "Swiss Army Knife" of Exploitation. While some CTFs discourage its use (to test your manual skills), Metasploit is invaluable for quickly launching known exploits or generating reverse shell payloads using msfvenom. \n\n
+The \"Swiss Army Knife\" of Exploitation. While some CTFs discourage its use (to test your manual skills), Metasploit is invaluable for quickly launching known exploits or generating reverse shell payloads using msfvenom. \n\n
 
 ### 10. CyberChef \n\n
-Technically a web-based utility (but pre-installed/bookmarked in Kali), CyberChef is the "Cyber Swiss Army Knife." It is perfect for Cryptography and Encoding challenges. \n
+Technically a web-based utility (but pre-installed/bookmarked in Kali), CyberChef is the \"Cyber Swiss Army Knife.\" It is perfect for Cryptography and Encoding challenges. \n
   * Common Use: Decoding nested Base64 strings, XORing data, or converting Hex to string in seconds. \n\n
 
 --- \n\n
