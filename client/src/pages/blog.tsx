@@ -31,10 +31,12 @@ In the world of Capture The Flag (CTF) competitions, your speed and familiarity 
 
 ### 1. Nmap (Network Mapper) \n\n
 The undisputed king of **Reconnaissance**. In \"Boot-to-Root\" or network-based CTFs, Nmap is almost always your first step. It helps you discover open ports, services, and OS versions.
+
     * **CTF Pro Tip:** Use the \`-sC -sV\` flags to run default scripts and version detection simultaneously. \n\n
 
 ### 2. Burp Suite \n\n
 The go-to tool for **Web Exploitation**. It acts as a proxy between your browser and the target server, allowing you to intercept, modify, and replay HTTP requests. 
+
     * **Key Feature:** The **Repeater** module is essential for manually testing payloads on a specific web form or header. \n\n
 
 ### 3. Ghidra / Radare2 \n\n
@@ -49,6 +51,7 @@ The gold standard for **Network Forensics**. Many CTFs give you a \`.pcap\` file
 
 ### 6. John the Ripper / Hashcat \n\n
 The heavy hitters for **Password Cracking**. When you find a hash (MD5, SHA256, etc.) in a database or a \`/etc/shadow file\`, these tools use wordlists like \`rockyou.txt\` to brute-force the plaintext password. 
+
     * **Distinction:** Use Hashcat if you have a powerful GPU; use John for quick CPU-based cracking. \n\n
 
 ### 7. SQLmap \n\n
@@ -56,6 +59,7 @@ An automated tool for **Database Exploitation*. If you find a potential SQL inje
 
 ### 8. Binwalk / ExifTool \n\n
 The primary tools for **Forensics and Steganography**. 
+
     * **Binwalk:** Scans files (like images) for hidden embedded files (like a secret ZIP or another image). 
     * **ExifTool:** Reads the metadata of a file, where flags are often hidden in the \"Comment\" or \"Author\" fields. \n\n
 
@@ -64,6 +68,7 @@ The \"Swiss Army Knife\" of **Exploitation**. While some CTFs discourage its use
 
 ### 10. CyberChef \n\n
 Technically a web-based utility (but pre-installed/bookmarked in Kali), CyberChef is the \"Cyber Swiss Army Knife.\" It is perfect for **Cryptography** and **Encoding challenges**. 
+
   * **Common Use:** Decoding nested Base64 strings, XORing data, or converting Hex to string in seconds. 
   `
   },
