@@ -55,7 +55,7 @@ The heavy hitters for **Password Cracking**. When you find a hash (MD5, SHA256, 
    * **Distinction:** Use Hashcat if you have a powerful GPU; use John for quick CPU-based cracking. \n\n
 
 ### 7. SQLmap \n\n
-An automated tool for **Database Exploitation*. If you find a potential SQL injection point, SQLmap can automatically dump the entire database, find the \"users\" table, and extract the flag for you. \n\n
+An automated tool for **Database Exploitation**. If you find a potential SQL injection point, SQLmap can automatically dump the entire database, find the \"users\" table, and extract the flag for you. \n\n
 
 ### 8. Binwalk / ExifTool \n\n
 The primary tools for **Forensics and Steganography**. 
