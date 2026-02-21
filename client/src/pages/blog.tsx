@@ -20,6 +20,28 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "6",
+    title: "Cheat Sheets for CTFs",
+    date: "2026-02-19 2:25 PM",
+    summary: "Some cheat sheets for CTFs",
+    content: `
+Capturing the Flag (CTF) is as much about having the right commands at your fingertips as it is about problem-solving. Since you can't memorize everything, a good "cheat sheet" is really a collection of specialized lists.
+
+\n\n --- \n\n
+
+A useful list of resources:
+  * **[volatility](https://github.com/volatilityfoundation/volatility)**
+  * **[Web-CTF-Cheatsheet](https://github.com/w181496/Web-CTF-Cheatsheet)**
+  * **[XSS-LOADER](https://github.com/capture0x/XSS-LOADER)**
+  * **[reverse-engineering](https://github.com/wtsxDev/reverse-engineering)**
+  * **[CTF-Katana](https://github.com/JohnHammond/ctf-katana)**
+  * **[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)**
+  * **[CTF-CheatSheet](https://github.com/RajChowdhury240/CTF-CheatSheet)**
+  * **[HackTricks](https://book.hacktricks.wiki/en/index.html)**
+  * **[GTFOBins](https://gtfobins.org/)**
+  `
+  },
+  {
     id: "5",
     title: "Top 10 tool from Kali Linux for CTFs ",
     date: "2026-02-19 2:25 PM",
