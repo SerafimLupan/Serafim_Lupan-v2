@@ -22,7 +22,7 @@ const BLOG_POSTS: BlogPost[] = [
   {
     id: "6",
     title: "Cheat Sheets for CTFs",
-    date: "2026-02-19 2:25 PM",
+    date: "2026-02-21 1:40 PM",
     summary: "Some cheat sheets for CTFs",
     content: `
 Capturing the Flag (CTF) is as much about having the right commands at your fingertips as it is about problem-solving. Since you can't memorize everything, a good "cheat sheet" is really a collection of specialized lists.
