@@ -42,7 +42,7 @@ A useful list of resources:
 
 \n\n --- \n\n
 
-Let's be honest: in the heat of a CTF competition (or during a penetration test), your brain is already overloaded with logic, puzzles, and strategies. Trying to remember exactly whether an Nmap flag is -sV or -SV is simply a waste of mental energy.
+Let's be honest: in the heat of a CTF competition (or during a penetration test), your brain is already overloaded with logic, puzzles, and strategies. Trying to remember exactly whether an Nmap flag is \`-sV\` or \`-SV\` is simply a waste of mental energy.
 
 \n\n --- \n\n
 
