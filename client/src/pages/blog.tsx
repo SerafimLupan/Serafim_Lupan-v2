@@ -56,12 +56,12 @@ Cybersecurity commands are often long, complex, and full of special characters. 
 
 A good cheat sheet doesn't just contain commands, it also contains a **workflow**.
 
-* *Example*: Did you find an open port 80? You look at the cheat sheet and see the steps: 1. Visit the page, 2. Check robots.txt, 3. Run gobuster, 4. Check the page source.
+* *Example*: Did you find an open port 80? You look at the cheat sheet and see the steps: 1. Visit the page, 2. Check \`robots.txt\`, 3. Run \`gobuster\`, 4. Check the page source.
 * It helps you not to skip essential steps when you are tired.
 
 3. **Reduce syntax errors** \n\n
 
-Many tools (like ffmpeg, openssl or sqlmap) have extremely fancy syntax. A poorly placed comma or the wrong flag can give you a false negative result (you think the vulnerability does not exist, when in fact you wrote the command incorrectly).
+Many tools (like \`ffmpeg\`, \`openssl\` or \`sqlmap\`) have extremely fancy syntax. A poorly placed comma or the wrong flag can give you a false negative result (you think the vulnerability does not exist, when in fact you wrote the command incorrectly).
 
 4. **Learning and evolution** \n\n
 
