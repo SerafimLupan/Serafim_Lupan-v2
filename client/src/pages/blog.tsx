@@ -39,6 +39,30 @@ A useful list of resources:
   * **[CTF-CheatSheet](https://github.com/RajChowdhury240/CTF-CheatSheet)**
   * **[HackTricks](https://book.hacktricks.wiki/en/index.html)**
   * **[GTFOBins](https://gtfobins.org/)**
+
+  \n\n --- \n\n
+
+Let's be honest: in the heat of a CTF competition (or during a penetration test), your brain is already overloaded with logic, puzzles, and strategies. Trying to remember exactly whether an Nmap flag is -sV or -SV is simply a waste of mental energy.
+
+Here's why a cheat sheet is not just "useful," but almost mandatory:
+
+1. Human memory is limited (and betrays under pressure)
+
+Cybersecurity commands are often long, complex, and full of special characters. In a CTF, time is the most precious resource. A cheat sheet turns a 5-minute Google search process (where you can get distracted) into a 2-second glance at a spreadsheet.
+2. Standardize the process (Methodology)
+
+A good cheat sheet doesn't just contain commands, it also contains a workflow.
+
+Example: Did you find an open port 80? You look at the cheat sheet and see the steps: 1. Visit the page, 2. Check robots.txt, 3. Run gobuster, 4. Check the page source.
+
+It helps you not to skip essential steps when you are tired.
+
+3. Reduce syntax errors
+
+Many tools (like ffmpeg, openssl or sqlmap) have extremely fancy syntax. A poorly placed comma or the wrong flag can give you a false negative result (you think the vulnerability does not exist, when in fact you wrote the command incorrectly).
+4. Learning and evolution
+
+When you create your own cheat sheet, the writing process helps you better understand what each command does. It is, in essence, a journal of your progress. If you find a new way to break a root privilege, you put it there and next time you are already an "expert" on that problem.
   `
   },
   {
