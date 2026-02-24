@@ -30,6 +30,7 @@ This article is a place where I want to show all the useful *resources/websites/
 
 It will contain even some "obvious" links, like the ASCII table and so on, because it is a page indended to be kept open during CTFs: you never know what will come in handy!
 
+---
 
 ## Training 🚩
 > A list of useful websites to train our skills and knowledge.
@@ -37,6 +38,8 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 - [capturetheflag](https://capturetheflag.it/risorse/come-imparo)
 - [overthewire](https://overthewire.org/wargames/)
 - [pwnable](http://pwnable.kr/)
+
+---
 
 ## General 📋
 #### Tools
@@ -51,6 +54,8 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 - [Regex Check](https://www.debuggex.com/): check **regular expressions** online
 #### Resources
 - [ASCII Table](http://www.asciitable.com/)
+
+---
 
 ## Cryptography 🔒
 #### Tools
@@ -76,6 +81,8 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 - [Weird Ciphers](http://www.quadibloc.com/crypto/intro.htm): a list of some **strange cryptography algorithms**
 - [Symbolic Ciphers](https://www.dcode.fr/symbols-ciphers): another list of **strange cryptography algorithms**
 
+---
+
 ## Steganography 🎨
 #### Tools
 - [Aperi'Solve](https://aperisolve.fr/): **one of the best online tools**, with static analysis and also running zsteg, steghide, exiftool, binwalk, foremost, .. 
@@ -89,6 +96,8 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 - [steghide](http://steghide.sourceforge.net/documentation/manpage.php): manual website of the **Steghide** tool
 - [zsteg](https://github.com/zed-0xff/zsteg): Ruby tool for steganography purposes
 
+---
+
 ## Web 🕸️
 #### Tools
 - [CSP Evaluator](https://csp-evaluator.withgoogle.com/): Google **CSP evaluator** with bypass possibilities
@@ -100,6 +109,8 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 - [JSONP Endpoints](https://github.com/zigoo0/JSONBee/blob/master/jsonp.txt): list of **well-known JSONP Endpoints**
 - [Web Payloads](https://github.com/swisskyrepo/PayloadsAllTheThings): list of **Web Payloads** of various techniques
 
+---
+
 ## Pwn 🐛
 ### Tools
 - [Syscall Reference](https://syscalls.w3challs.com/): **x86 / x64 syscalls manual** with registers value
@@ -109,6 +120,8 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 - [DogBolt](https://dogbolt.org/): online **binary file decompiler** with different options like Ghidra and BinaryNinja
 ### Resources
 
+---
+
 ## Forensics 🕵️‍♂️
 ### Tools
 - [Forensically](https://29a.ch/photo-forensics/#forensic-magnifier): **online forensic analysis tool** to extract cool data from images, .. 
@@ -116,11 +129,15 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 - [Foremost](https://tools.kali.org/forensics/foremost): **file recovery tool** based on their magic bytes, headers, ..
 ### Resources
 
+---
+
 ## OSINT 🌐
 - [Mail from LinkedIn](https://skrapp.io/tutorials/linkedin-email-finder): Chrome extension to **find email addresses from Linkedin page**
 - [Wayback Machine](https://archive.org/web/): **webpage archive at a certain time**
 - [Sherlock](https://github.com/sherlock-project/sherlock): hunt down **social media accounts by username**
 - [Email lookup](https://epieos.com/): tool to **retrieve information linked to an email address**
+
+---
 
 ## Reversing ↩️
 ### Tools
