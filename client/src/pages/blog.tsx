@@ -25,15 +25,13 @@ const BLOG_POSTS: BlogPost[] = [
     date: "2026-02-24 5:40 PM",
     summary: "A list of useful CTF tools",
     content: `
-# CTF Tools
-
 This article is a place where I want to show all the useful *resources/websites/tools* to solve CTF challenges. All the tools will be divided by category, in order to better organize them.
 
 It will contain even some "obvious" links, like the ASCII table and so on, because it is a page indended to be kept open during CTFs: you never know what will come in handy!
 
 ---
 
-# Training 🚩
+## Training 🚩
 > A list of useful websites to train our skills and knowledge.
 - [picoCTF](https://picoctf.org/)
 - [capturetheflag](https://capturetheflag.it/risorse/come-imparo)
@@ -42,7 +40,7 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 
 ---
 
-# General 📋
+## General 📋
 
 ### Tools
 - [John Hammond - Katana](https://github.com/JohnHammond/ctf-katana): **huge repo of very useful CTF tools**, thank you John, my repo now looks useless 
@@ -60,7 +58,7 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 
 ---
 
-# Cryptography 🔒
+## Cryptography 🔒
 
 ### Tools
 - [dCode](https://www.dcode.fr): **crypto heaven**
@@ -88,7 +86,7 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 
 ---
 
-# Steganography 🎨
+## Steganography 🎨
 
 ### Tools
 - [Aperi'Solve](https://aperisolve.fr/): **one of the best online tools**, with static analysis and also running zsteg, steghide, exiftool, binwalk, foremost, .. 
@@ -105,7 +103,7 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 
 ---
 
-# Web 🕸️
+## Web 🕸️
 
 ### Tools
 - [CSP Evaluator](https://csp-evaluator.withgoogle.com/): Google **CSP evaluator** with bypass possibilities
@@ -120,7 +118,7 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 
 ---
 
-# Pwn 🐛
+## Pwn 🐛
 
 ### Tools
 - [Syscall Reference](https://syscalls.w3challs.com/): **x86 / x64 syscalls manual** with registers value
@@ -131,7 +129,7 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 
 ---
 
-# Forensics 🕵️‍♂️
+## Forensics 🕵️‍♂️
 
 ### Tools
 - [Forensically](https://29a.ch/photo-forensics/#forensic-magnifier): **online forensic analysis tool** to extract cool data from images, .. 
@@ -141,7 +139,7 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 
 ---
 
-# OSINT 🌐
+## OSINT 🌐
 - [Mail from LinkedIn](https://skrapp.io/tutorials/linkedin-email-finder): Chrome extension to **find email addresses from Linkedin page**
 - [Wayback Machine](https://archive.org/web/): **webpage archive at a certain time**
 - [Sherlock](https://github.com/sherlock-project/sherlock): hunt down **social media accounts by username**
@@ -149,7 +147,7 @@ It will contain even some "obvious" links, like the ASCII table and so on, becau
 
 ---
 
-# Reversing ↩️
+## Reversing ↩️
 
 ### Tools
 - [Online Decompiler](http://www.javadecompilers.com/): online tool to decompile **Java classes, APKs,...**
