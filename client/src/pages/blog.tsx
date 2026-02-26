@@ -57,9 +57,9 @@ interface BlogPost {
 const BLOG_POSTS: BlogPost[] = [
   {
     id: "8",
-    title: "Network analysis with tshark",
+    title: "Network analysis with Tshark",
     date: "2026-02-26 8:30 PM",
-    summary: "Network analysis using tshark on Linux terminal",
+    summary: "Network analysis using Tshark on Linux terminal",
     content: `
 Tshark is the \"Swiss Army Knife\" for any cybersecurity enthusiast or network administrator. When your \`.pcap\` file is too big for Wireshark or you\'re in a Kali Linux terminal, these commands are essential.
 
@@ -143,6 +143,20 @@ For those times when you are looking for a \"needle in a haystack\".
 
       \`\`\`bash
       tshark -r file.pcap -T fields -e http.user_agent | sort -u
+      \`\`\`
+
+### 4. File Manipulation
+
+  - **Saving a subset of data to a new file:**
+
+      \`\`\`bash
+      tshark -r large.pcap -Y "ip.addr == 192.168.1.10" -w small.pcap
+      \`\`\`
+
+  - **Converting pcap to JSON (useful for ElasticSearch/Splunk):**
+
+      \`\`\`bash
+      tshark -r file.pcap -T json > data.json
       \`\`\`
 
 `
