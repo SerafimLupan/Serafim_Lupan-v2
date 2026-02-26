@@ -11,20 +11,25 @@ import { Button } from "@/components/ui/button";
 import { Copy, Check } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
-const handleCopy = async () => {
-  const text = children.props.children; 
-  const textToCopy = Array.isArray(text) ? text.join('') : text;
+const CodeBlock = ({ children }: any) => {
+  const [copied, setCopied] = useState(false);
+  const { toast } = useToast();
 
-  await navigator.clipboard.writeText(textToCopy);
-  
-  setCopied(true);
-  toast({
-    title: "DATA_EXTRACTED",
-    description: "Code snippet copied to clipboard.",
-    className: "bg-black border-primary text-primary font-mono",
-  });
-  setTimeout(() => setCopied(false), 2000);
-};
+  const handleCopy = async () => {
+    const text = children.props.children;
+    const textToCopy = Array.isArray(text) ? text.join('') : text;
+
+    await navigator.clipboard.writeText(textToCopy);
+    
+    setCopied(true);
+    toast({
+      title: "DATA_EXTRACTED",
+      description: "Code snippet copied to clipboard.",
+      className: "bg-black border-primary text-primary font-mono",
+    });
+
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   return (
     <div className="relative group">
