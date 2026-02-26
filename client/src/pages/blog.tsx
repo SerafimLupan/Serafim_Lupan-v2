@@ -33,26 +33,26 @@ Here\'s a list organized by usage category:
 
 Before filtering, you need to know what you are dealing with.
 
-  - **Protocol Hierarchy (What type of traffic do you have?):**
+  - **Protocol Hierarchy (What type of traffic do you have?):** \n
     \`tshark -r fisier.pcap -z io,phs\`
 
-  - **Listing IP Addresses (Endpoints):**
+  - **Listing IP Addresses (Endpoints):** \n
     \`tshark -r fisier.pcap -z endpoints,ip\`
 
-  - **Displaying the first 10 packets (Summary):**
+  - **Displaying the first 10 packets (Summary):** \n
     \`tshark -r fisier.pcap -c 10\`
 
 ### 2. Data Extraction (Field Filters)
 
 The most useful feature for reporting or scripting. We use \`-T\` fields to choose exactly which columns we want.
 
-  - **Extract Source, Destination and Port IP:**
+  - **Extract Source, Destination and Port IP:** \n
     \`tshark -r fisier.pcap -T fields -e ip.src -e ip.dst -e tcp.dstport -E header=y\`
 
-  - **Extract Visited URLs (HTTP):**
+  - **Extract Visited URLs (HTTP):** \n
     \`tshark -r fisier.pcap -Y http.request -T fields -e http.host -e http.request.uri\`
 
-  - **Extract DNS queries:**
+  - **Extract DNS queries:** \n
     \`tshark -r fisier.pcap -T fields -e dns.qry.name | sort | uniq -c\`
 
 `
