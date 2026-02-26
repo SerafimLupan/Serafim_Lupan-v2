@@ -159,6 +159,26 @@ For those times when you are looking for a \"needle in a haystack\".
       tshark -r file.pcap -T json > data.json
       \`\`\`
 
+---
+
+Here is a complete Cheat Sheet, structured to be used as a quick reference when you are in the terminal and need precision.
+
+---
+
+Flag         Function         Explanation
+\`-r <file>\`    **Read**             Read from a \`.pcap\` / \`.pcapng\` file.
+\`-w <file>\`    **Write**            Write packets (filtered or not) to a new file.
+\`-Y <filter>\`  **Display Filter**   Wireshark-style filtering 
+\`-f <filter>\`  **Capture Filter**   BPF filtering (used only for live capture, ex: \`tcp port 80\`).
+\`-T <format>\`  **Output Format**    Formats: \`fields\`, \`json\`, \`pdml\`, \`ps\`, \`text\`, \`tabs\`.
+\`-e <field>\`   **Extract Field**    Extract a specific field (requires \`-T fields\`).
+\`-n\`           **No Resolve**       Disable name resolution (DNS, ports) for speed.
+\`-x\`           **Hex/ASCII**        Display the full dump in Hex and ASCII.
+\`-V\`           **Verbose**          Display full details (all layers) of the packet.
+\`-c <count>\`   **Count**            Stop after processing X packets.
+\`-z <stat>\`    **Statistics**       Generate reports (ex: \`conv,ip\` or \`io,phs\`).
+\`-2\`           **Two-pass**         Analyze the file twice (required for some statistics).
+
 `
   },
   {
