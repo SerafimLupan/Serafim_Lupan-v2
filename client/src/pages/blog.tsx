@@ -266,6 +266,51 @@ If you use \`-T\` fields, you need these options to structure the data:
   \`\`\`bash
   tshark -r file.pcap -T fields -e frame.data | xxd -r -p | grep "CTF{"
   \`\`\`
+
+---
+
+Exporting objects via \`tshark\` is the equivalent of the **\"File -> Export Objects\"** function in the Wireshark GUI. It is extremely useful for automatically extracting files (images, documents, executables) from a network capture.
+
+The main command uses the \`--export-objects\` parameter.
+
+---
+
+## 1. Basic Syntax
+
+The general syntax is:
+
+\`\`\`bash
+tshark -r <input_file> --export-objects <protocol>,<destination_directory>
+\`\`\`
+
+  - \`<protocol>\`: Tshark currently supports: \`http\`, \`dicom\`, \`imf\` (emails), \`smb\`, \`tftp\`.
+
+  - \`<destination_directory>\`: The folder where you want the files to be saved. 
+  
+      **Warning**: The folder must already exist or it will be created by tshark.
+
+## 2. Practical examples:
+A. **Export all files from an HTTP traffic (images, html pages, etc.):**
+
+    \`\`\`bash
+    mkdir output_http
+    tshark -r trafic.pcap --export-objects http,output_http
+    \`\`\`
+
+B. **Export files transferred via SMB (Windows file sharing):**
+
+    \`\`\`bash
+    mkdir output_smb
+    tshark -r trafic.pcap --export-objects smb,output_smb
+    \`\`\`
+
+C. **Export files from a TFTP traffic:**
+
+    \`\`\`bash
+    tshark -r trafic.pcap --export-objects tftp,./output_tftp
+    \`\`\`
+
+
 `
   },
   {
