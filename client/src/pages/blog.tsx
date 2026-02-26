@@ -205,6 +205,27 @@ These are used inside the quotes after the \`-Y\` flag to isolate traffic.
 
   - \`in\` : Check membership in a set (ex: \`tcp.port in {80, 443, 8080}\`)
 
+---
+
+### Common Extraction Fields (\`-e\`)
+
+Used with \`-T\` fields to create custom reports or CSVs.
+
+Category               Field(s)(\`-e\`)                   Description                                  \n
+**General**            \`frame.number\`                   Frame number                                 \n
+                       \`frame.time_relative\`            Time elapsed since the start of the capture  \n
+**IP**                 \`ip.src\` / \`ip.dst\`            Source / destination IP address              \n
+                       \`ip.proto\`                       Protocol (TCP=6, UDP=17, ICMP=1)             \n
+**TCP/UDP**            \`tcp.srcport\` / \`tcp.dstport\`  Source / destination port                    \n
+                       \`tcp.flags.str\`                  TCP flags (SYN, ACK, FIN, etc.)              \n
+                       \`tcp.payload\`                    Raw data from the TCP segment                \n
+**HTTP**               \`http.request.method\`            Method (GET, POST, PUT)                      \n
+                       \`http.request.uri\`               URL accessed                                 \n
+                       \`http.user_agent\`                Browser used                                 \n
+**DNS**                \`dns.qry.name\`                   Domain queried                               \n
+                       \`dns.a\`                          IP address returned by DNS                   \n
+                       
+
 `
   },
   {
