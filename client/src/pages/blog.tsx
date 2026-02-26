@@ -20,6 +20,18 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "8",
+    title: "Network analysis with tshark",
+    date: "2026-02-26 8:30 PM",
+    summary: "Network analysis using tshark on Linux terminal",
+    content: `
+Tshark is the \"Swiss Army Knife\" for any cybersecurity enthusiast or network administrator. When your \`.pcap\` file is too big for Wireshark or you\'re in a Kali Linux terminal, these commands are essential.
+
+Here\'s a list organized by usage category:
+
+`
+  },
+  {
     id: "7",
     title: "CTF tools",
     date: "2026-02-24 5:40 PM",
