@@ -179,6 +179,32 @@ Flag               Function             Explanation \n
 \`-z <stat>\`      **Statistics**       Generate reports (ex: \`conv,ip\` or \`io,phs\`). \n
 \`-2\`             **Two-pass**         Analyze the file twice (required for some statistics). \n
 
+---
+
+### Filtering Operators (\`-Y\`)
+
+These are used inside the quotes after the \`-Y\` flag to isolate traffic.
+
+**Logical Operators:**
+
+  - \`==\` or \`eq\` : Equality (ex: \`ip.src == 10.0.0.1\`)
+
+  - \`!=\` or \`ne\` : Not equal
+
+  - \`&&\` or \`and\` : Logical "And" (both conditions must be true)
+
+  - \`||\` or \`or\` : Logical "Or" (either condition is true)
+
+  - \`!\` or \`not\` : Negation
+
+**Content Operators:**
+
+  - \`contains\` : Search for a string of characters or bytes (ex: \`http contains "password"\`)
+
+  - \`matches\` : Search using regular expressions (Regex) (ex: \`http.host matches "\.(com|net)"\`)
+
+  - \`in\` : Check membership in a set (ex: \`tcp.port in {80, 443, 8080}\`)
+
 `
   },
   {
