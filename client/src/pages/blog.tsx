@@ -213,19 +213,59 @@ Used with \`-T\` fields to create custom reports or CSVs.
 
 Category               Field(s)(\`-e\`)                   Description                                  \n
 **General**            \`frame.number\`                   Frame number                                 \n
-                       \`frame.time_relative\`            Time elapsed since the start of the capture  \n
+*General**             \`frame.time_relative\`            Time elapsed since the start of the capture  \n
 **IP**                 \`ip.src\` / \`ip.dst\`            Source / destination IP address              \n
-                       \`ip.proto\`                       Protocol (TCP=6, UDP=17, ICMP=1)             \n
+**IP**                 \`ip.proto\`                       Protocol (TCP=6, UDP=17, ICMP=1)             \n
 **TCP/UDP**            \`tcp.srcport\` / \`tcp.dstport\`  Source / destination port                    \n
-                       \`tcp.flags.str\`                  TCP flags (SYN, ACK, FIN, etc.)              \n
-                       \`tcp.payload\`                    Raw data from the TCP segment                \n
+**TCP/UDP**            \`tcp.flags.str\`                  TCP flags (SYN, ACK, FIN, etc.)              \n
+**TCP/UDP**            \`tcp.payload\`                    Raw data from the TCP segment                \n
 **HTTP**               \`http.request.method\`            Method (GET, POST, PUT)                      \n
-                       \`http.request.uri\`               URL accessed                                 \n
-                       \`http.user_agent\`                Browser used                                 \n
+**HTTP**               \`http.request.uri\`               URL accessed                                 \n
+**HTTP**               \`http.user_agent\`                Browser used                                 \n
 **DNS**                \`dns.qry.name\`                   Domain queried                               \n
-                       \`dns.a\`                          IP address returned by DNS                   \n
-                       
+**DNS**                \`dns.a\`                          IP address returned by DNS                   \n
 
+---
+
+### Output Formatting (\`-E\`)
+
+If you use \`-T\` fields, you need these options to structure the data:
+
+  - \`-E header=y\` : Add field names to the first line.
+
+  - \`-E separator=,\` : Set the separator (comma for CSV,\`\t\` for tab).
+
+  - \`-E quote=d\` : Put values ​​in quotes (useful for data containing spaces).
+
+  - \`-E occurrence=f\` : If a field occurs multiple times (e.g. multiple IPs), only take the first one.
+
+---
+
+### Quick Examples (Copy-Paste)
+
+  1. **Extract all unique IPs from a file:**
+
+  \`\`\`bash
+  tshark -r file.pcap -T fields -e ip.src | sort -u
+  \`\`\`
+
+  2. **View all HTTP POST requests (possible passwords/data):**
+
+  \`\`\`bash
+  tshark -r file.pcap -Y "http.request.method == POST" -T fields -e ip.src -e http.host -e http.request.uri
+  \`\`\`
+
+  3. **Quickly identify the largest data transfer (TCP Conversations):**
+
+  \`\`\`bash
+  tshark -r file.pcap -z conv,tcp -q
+  \`\`\`
+
+  4. **Raw search for a flag in ASCII (CTF Style):**
+
+  \`\`\`bash
+  tshark -r file.pcap -T fields -e frame.data | xxd -r -p | grep "CTF{"
+  \`\`\`
 `
   },
   {
