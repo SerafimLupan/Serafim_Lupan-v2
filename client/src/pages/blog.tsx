@@ -189,7 +189,7 @@ These are used inside the quotes after the \`-Y\` flag to isolate traffic.
 
   - \`==\` or \`eq\` : Equality (ex: \`ip.src == 10.0.0.1\`)
 
-  - \`!=\` or \`ne\` : Not equal
+  - \`! =\` or \`ne\` : Not equal
 
   - \`&&\` or \`and\` : Logical "And" (both conditions must be true)
 
