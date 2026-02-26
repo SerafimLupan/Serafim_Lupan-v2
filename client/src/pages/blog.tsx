@@ -73,7 +73,9 @@ For those times when you are looking for a \"needle in a haystack\".
 
   - **Search for a specific string in the entire packet (ex: \"flag\", \"password\"):**
 
-      \`tshark -r file.pcap -Y \"frame contains \ \"flag\ \"\"\`
+      \`\`\`bash
+      tshark -r fisier.pcap -Y "frame contains \\"flag\\""
+      \`\`\`
 
   - **Follow a TCP stream (Follow Stream):**
   
