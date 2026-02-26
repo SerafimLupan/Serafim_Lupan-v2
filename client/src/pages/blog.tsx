@@ -572,11 +572,19 @@ export default function Blog() {
                   </div>
 
                   <div className="prose prose-invert prose-primary max-w-none  
-                                  prose-headings:text-primary 
+                                  prose-headings:text-primary  
                                   prose-strong:text-white 
-                                  prose-code:text-primary-foreground 
-                                  prose-code:bg-primary/20 
-                                  prose-code:px-1
+                                  
+                                  prose-code:text-black 
+                                  prose-code:bg-primary/80 
+                                  prose-code:px-1.5 
+                                  prose-code:py-0.5 
+                                  prose-code:rounded-md
+                                  prose-code:font-bold
+          
+                                  prose-code:before:content-none 
+                                  prose-code:after:content-none
+                
                                   prose-blockquote:border-l-0 
                                   prose-blockquote:pl-10 
                                   prose-blockquote:italic
