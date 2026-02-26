@@ -294,9 +294,7 @@ A. **Export all files from an HTTP traffic (images, html pages, etc.):**
 
   \`\`\`bash
   mkdir output_http      
-  \`\`\`
 
-  \`\`\`bash
   tshark -r trafic.pcap --export-objects http,output_http
   \`\`\`
 
