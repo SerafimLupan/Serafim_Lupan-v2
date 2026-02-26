@@ -8,6 +8,37 @@ import { Calendar, BookOpen, ChevronLeft } from "lucide-react";
 import ReactMarkdown from 'react-markdown';
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { Copy, Check } from "lucide-react";
+import { useToast } from "@/hooks/use-toast";
+
+const handleCopy = async () => {
+  const text = children.props.children; 
+  const textToCopy = Array.isArray(text) ? text.join('') : text;
+
+  await navigator.clipboard.writeText(textToCopy);
+  
+  setCopied(true);
+  toast({
+    title: "DATA_EXTRACTED",
+    description: "Code snippet copied to clipboard.",
+    className: "bg-black border-primary text-primary font-mono",
+  });
+  setTimeout(() => setCopied(false), 2000);
+};
+
+  return (
+    <div className="relative group">
+      <button
+        onClick={handleCopy}
+        className="absolute right-4 top-4 p-2 bg-black/60 border border-primary/30 text-primary opacity-0 group-hover:opacity-100 transition-all duration-200 hover:bg-primary hover:text-black z-10"
+        title="Copy Code"
+      >
+        {copied ? <Check size={16} /> : <Copy size={16} />}
+      </button>
+      {children}
+    </div>
+  );
+};
 
 // Tip pentru postările noastre
 interface BlogPost {
@@ -625,7 +656,18 @@ export default function Blog() {
                                   prose-blockquote:pl-10 
                                   prose-blockquote:italic
                                   prose-blockquote:text-gray-400">
-                    <ReactMarkdown>{selectedPost.content}</ReactMarkdown>
+                    <ReactMarkdown
+                      components={{
+                          pre: ({ node, ...props }) => <CodeBlock {...props} />,
+                          code: ({ node, inline, ...props }: any) => {
+                            return inline ? (
+                                        <code {...props} className="bg-primary/20 text-primary px-1 rounded" />
+                                        ) : (
+                                        <code {...props} />
+                                        );
+                          }
+                      }}
+                      >{selectedPost.content}</ReactMarkdown>
                   </div>
           </motion.div>
           )}
