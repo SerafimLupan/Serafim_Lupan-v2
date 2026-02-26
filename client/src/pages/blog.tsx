@@ -29,6 +29,19 @@ Tshark is the \"Swiss Army Knife\" for any cybersecurity enthusiast or network a
 
 Here\'s a list organized by usage category:
 
+### 1. Quick Inspection (Exploration)
+
+Before filtering, you need to know what you are dealing with.
+
+  - Protocol Hierarchy (What type of traffic do you have?):
+    \`tshark -r fisier.pcap -z io,phs\`
+
+  - Listing IP Addresses (Endpoints):
+    \`tshark -r fisier.pcap -z endpoints,ip\`
+
+  - Displaying the first 10 packets (Summary):
+    \`tshark -r fisier.pcap -c 10\`
+
 `
   },
   {
