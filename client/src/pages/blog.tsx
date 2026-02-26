@@ -302,19 +302,19 @@ A. **Export all files from an HTTP traffic (images, html pages, etc.):**
 
 B. **Export files transferred via SMB (Windows file sharing):**
 
-    \`\`\`bash
-    mkdir output_smb
-    \`\`\`
+   \`\`\`bash
+   mkdir output_smb
+   \`\`\`
 
-    \`\`\`bash
-    tshark -r trafic.pcap --export-objects smb,output_smb
-    \`\`\`
+   \`\`\`bash
+   tshark -r trafic.pcap --export-objects smb,output_smb
+   \`\`\`
 
 C. **Export files from a TFTP traffic:**
 
-    \`\`\`bash                                               
-    tshark -r trafic.pcap --export-objects tftp,./output_tftp
-    \`\`\`
+  \`\`\`bash                                               
+  tshark -r trafic.pcap --export-objects tftp,./output_tftp
+  \`\`\`
 
 
 `
