@@ -73,21 +73,21 @@ Before filtering, you need to know what you are dealing with.
 
   - **Protocol Hierarchy (What type of traffic do you have?):**
 
-        \`\`\`bash
-        tshark -r file.pcap -z io,phs
-        \`\`\`
+      \`\`\`bash
+      tshark -r file.pcap -z io,phs
+      \`\`\`
 
   - **Listing IP Addresses (Endpoints):**
 
-        \`\`\`bash
-        tshark -r file.pcap -z endpoints,ip
-        \`\`\`
+      \`\`\`bash
+      tshark -r file.pcap -z endpoints,ip
+      \`\`\`
 
   - **Displaying the first 10 packets (Summary):**
 
-        \`\`\`bash
-        tshark -r file.pcap -c 10
-        \`\`\`
+      \`\`\`bash
+      tshark -r file.pcap -c 10
+      \`\`\`
 
 ---
 
@@ -97,21 +97,21 @@ The most useful feature for reporting or scripting. We use \`-T\` fields to choo
 
   - **Extract Source, Destination and Port IP:**
 
-        \`\`\`bash
-        tshark -r file.pcap -T fields -e ip.src -e ip.dst -e tcp.dstport -E header=y
-        \`\`\`
+      \`\`\`bash
+      tshark -r file.pcap -T fields -e ip.src -e ip.dst -e tcp.dstport -E header=y
+      \`\`\`
 
   - **Extract Visited URLs (HTTP):**
 
-        \`\`\`bash
-        tshark -r file.pcap -Y http.request -T fields -e http.host -e http.request.uri
-        \`\`\`
+      \`\`\`bash
+      tshark -r file.pcap -Y http.request -T fields -e http.host -e http.request.uri
+      \`\`\`
 
   - **Extract DNS queries:**
 
-        \`\`\`bash
-        tshark -r file.pcap -T fields -e dns.qry.name | sort | uniq -c
-        \`\`\`
+      \`\`\`bash
+      tshark -r file.pcap -T fields -e dns.qry.name | sort | uniq -c
+      \`\`\`
 
 ---
 
@@ -121,29 +121,29 @@ For those times when you are looking for a \"needle in a haystack\".
 
   - **Search for a specific string in the entire packet (ex: \"flag\", \"password\"):**
 
-        \`\`\`bash
-        tshark -r fisier.pcap -Y "frame contains \\"flag\\""
-        \`\`\`
+      \`\`\`bash
+      tshark -r fisier.pcap -Y "frame contains \\"flag\\""
+      \`\`\`
 
   - **Follow a TCP stream (Follow Stream):**
   
-        \`\`\`bash
-        tshark -r file.pcap -z follow,tcp,ascii,0
-        \`\`\`
+      \`\`\`bash
+      tshark -r file.pcap -z follow,tcp,ascii,0
+      \`\`\`
        
-        *(Replace 0 with the desired stream ID).*
+      *(Replace 0 with the desired stream ID).*
 
   - **Identify TCP retransmissions (sign of latency or attack):**
 
-        \`\`\`bash
-        tshark -r file.pcap -Y \"tcp.analysis.retransmission\"
-        \`\`\`
+      \`\`\`bash
+      tshark -r file.pcap -Y \"tcp.analysis.retransmission\"
+      \`\`\`
 
   - **Extract User-Agents (to see which browsers/bots are on the network):**
 
-        \`\`\`bash
-        tshark -r file.pcap -T fields -e http.user_agent | sort -u
-        \`\`\`
+      \`\`\`bash
+      tshark -r file.pcap -T fields -e http.user_agent | sort -u
+      \`\`\`
 
 `
   },
