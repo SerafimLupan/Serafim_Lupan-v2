@@ -213,7 +213,7 @@ Used with \`-T\` fields to create custom reports or CSVs.
 
 Category               Field(s)(\`-e\`)                   Description                                  \n
 **General**            \`frame.number\`                   Frame number                                 \n
-*General**             \`frame.time_relative\`            Time elapsed since the start of the capture  \n
+**General**             \`frame.time_relative\`            Time elapsed since the start of the capture  \n
 **IP**                 \`ip.src\` / \`ip.dst\`            Source / destination IP address              \n
 **IP**                 \`ip.proto\`                       Protocol (TCP=6, UDP=17, ICMP=1)             \n
 **TCP/UDP**            \`tcp.srcport\` / \`tcp.dstport\`  Source / destination port                    \n
@@ -233,7 +233,7 @@ If you use \`-T\` fields, you need these options to structure the data:
 
   - \`-E header=y\` : Add field names to the first line.
 
-  - \`-E separator=,\` : Set the separator (comma for CSV,\`\t\` for tab).
+  - \`-E separator=,\` : Set the separator (comma for CSV,\` \\t \` for tab).
 
   - \`-E quote=d\` : Put values ​​in quotes (useful for data containing spaces).
 
