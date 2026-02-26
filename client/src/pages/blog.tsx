@@ -293,20 +293,20 @@ tshark -r <input_file> --export-objects <protocol>,<destination_directory>
 A. **Export all files from an HTTP traffic (images, html pages, etc.):**
 
     \`\`\`bash
-    mkdir output_http
+    mkdir output_http                                          \n
     tshark -r trafic.pcap --export-objects http,output_http
     \`\`\`
 
 B. **Export files transferred via SMB (Windows file sharing):**
 
     \`\`\`bash
-    mkdir output_smb
+    mkdir output_smb                                          \n
     tshark -r trafic.pcap --export-objects smb,output_smb
     \`\`\`
 
 C. **Export files from a TFTP traffic:**
 
-    \`\`\`bash
+    \`\`\`bash                                                \n
     tshark -r trafic.pcap --export-objects tftp,./output_tftp
     \`\`\`
 
