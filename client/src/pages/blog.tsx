@@ -294,7 +294,6 @@ A. **Export all files from an HTTP traffic (images, html pages, etc.):**
 
   \`\`\`bash
   mkdir output_http      
-
   tshark -r trafic.pcap --export-objects http,output_http
   \`\`\`
 
@@ -302,9 +301,6 @@ B. **Export files transferred via SMB (Windows file sharing):**
 
   \`\`\`bash
   mkdir output_smb
-  \`\`\`
-  
-  \`\`\`bash
   tshark -r trafic.pcap --export-objects smb,output_smb
   \`\`\`
 
