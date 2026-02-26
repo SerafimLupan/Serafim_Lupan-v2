@@ -165,19 +165,19 @@ Here is a complete Cheat Sheet, structured to be used as a quick reference when 
 
 ---
 
-Flag         Function         Explanation
-\`-r <file>\`    **Read**             Read from a \`.pcap\` / \`.pcapng\` file. \n
-\`-w <file>\`    **Write**            Write packets (filtered or not) to a new file. \n
-\`-Y <filter>\`  **Display Filter**   Wireshark-style filtering  \n
-\`-f <filter>\`  **Capture Filter**   BPF filtering (used only for live capture, ex: \`tcp port 80\`). \n
-\`-T <format>\`  **Output Format**    Formats: \`fields\`, \`json\`, \`pdml\`, \`ps\`, \`text\`, \`tabs\`. \n
-\`-e <field>\`   **Extract Field**    Extract a specific field (requires \`-T fields\`). \n
-\`-n\`           **No Resolve**       Disable name resolution (DNS, ports) for speed. \n
-\`-x\`           **Hex/ASCII**        Display the full dump in Hex and ASCII. \n
-\`-V\`           **Verbose**          Display full details (all layers) of the packet. \n
-\`-c <count>\`   **Count**            Stop after processing X packets. \n
-\`-z <stat>\`    **Statistics**       Generate reports (ex: \`conv,ip\` or \`io,phs\`). \n
-\`-2\`           **Two-pass**         Analyze the file twice (required for some statistics). \n
+Flag               Function             Explanation \n
+\`-r <file>\`      **Read**             Read from a \`.pcap\` / \`.pcapng\` file. \n
+\`-w <file>\`      **Write**            Write packets (filtered or not) to a new file. \n
+\`-Y <filter>\`    **Display Filter**   Wireshark-style filtering  \n
+\`-f <filter>\`    **Capture Filter**   BPF filtering (used only for live capture, ex: \`tcp port 80\`). \n
+\`-T <format>\`    **Output Format**    Formats: \`fields\`, \`json\`, \`pdml\`, \`ps\`, \`text\`, \`tabs\`. \n
+\`-e <field>\`     **Extract Field**    Extract a specific field (requires \`-T fields\`). \n
+\`-n\`             **No Resolve**       Disable name resolution (DNS, ports) for speed. \n
+\`-x\`             **Hex/ASCII**        Display the full dump in Hex and ASCII. \n
+\`-V\`             **Verbose**          Display full details (all layers) of the packet. \n
+\`-c <count>\`     **Count**            Stop after processing X packets. \n
+\`-z <stat>\`      **Statistics**       Generate reports (ex: \`conv,ip\` or \`io,phs\`). \n
+\`-2\`             **Two-pass**         Analyze the file twice (required for some statistics). \n
 
 `
   },
