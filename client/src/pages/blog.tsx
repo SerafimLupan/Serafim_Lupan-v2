@@ -27,7 +27,9 @@ const BLOG_POSTS: BlogPost[] = [
     content: `
 Tshark is the \"Swiss Army Knife\" for any cybersecurity enthusiast or network administrator. When your \`.pcap\` file is too big for Wireshark or you\'re in a Kali Linux terminal, these commands are essential.
 
-Here\'s a list organized by usage category:
+---
+
+## Here\'s a list organized by usage category:
 
 ### 1. Quick Inspection (Exploration)
 
@@ -35,15 +37,17 @@ Before filtering, you need to know what you are dealing with.
 
   - **Protocol Hierarchy (What type of traffic do you have?):**
   
-      \`tshark -r fisier.pcap -z io,phs\`
+      \`tshark -r file.pcap -z io,phs\`
 
   - **Listing IP Addresses (Endpoints):**
   
-      \`tshark -r fisier.pcap -z endpoints,ip\`
+      \`tshark -r file.pcap -z endpoints,ip\`
 
   - **Displaying the first 10 packets (Summary):**
   
-      \`tshark -r fisier.pcap -c 10\`
+      \`tshark -r file.pcap -c 10\`
+
+---
 
 ### 2. Data Extraction (Field Filters)
 
@@ -51,15 +55,39 @@ The most useful feature for reporting or scripting. We use \`-T\` fields to choo
 
   - **Extract Source, Destination and Port IP:**
   
-      \`tshark -r fisier.pcap -T fields -e ip.src -e ip.dst -e tcp.dstport -E header=y\`
+      \`tshark -r file.pcap -T fields -e ip.src -e ip.dst -e tcp.dstport -E header=y\`
 
   - **Extract Visited URLs (HTTP):**
   
-      \`tshark -r fisier.pcap -Y http.request -T fields -e http.host -e http.request.uri\`
+      \`tshark -r file.pcap -Y http.request -T fields -e http.host -e http.request.uri\`
 
   - **Extract DNS queries:**
   
-      \`tshark -r fisier.pcap -T fields -e dns.qry.name | sort | uniq -c\`
+      \`tshark -r file.pcap -T fields -e dns.qry.name | sort | uniq -c\`
+
+---
+
+### 3. Security Analysis & CTF
+
+For those times when you are looking for a \"needle in a haystack\".
+
+  - **Search for a specific string in the entire packet (ex: \"flag\", \"password\"):**
+
+      \`tshark -r file.pcap -Y \"frame contains \ \"flag\ \"\"\`
+
+  - **Follow a TCP stream (Follow Stream):**
+  
+      \`tshark -r file.pcap -z follow,tcp,ascii,0\`
+      
+      *(Replace 0 with the desired stream ID).*
+
+  - **Identify TCP retransmissions (sign of latency or attack):**
+
+      \`tshark -r file.pcap -Y \"tcp.analysis.retransmission\"\`
+
+  - **Extract User-Agents (to see which browsers/bots are on the network):**
+
+      \`tshark -r file.pcap -T fields -e http.user_agent | sort -u\`
 
 `
   },
