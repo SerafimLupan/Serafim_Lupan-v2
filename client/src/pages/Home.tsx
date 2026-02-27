@@ -206,7 +206,7 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
       {/* Experience Section */}
       <section id="experience" className="py-24">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading title="EXPERIENCE_&_EDUCATION" align="left" />
+          <SectionHeading title="EXPERIENCE_&&_EDUCATION" align="left" />
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
@@ -256,7 +256,7 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
       {/* Projects & Certifications Section */}
       <section id="projects" className="py-24 bg-black/80">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading title="PROJECTS_&_TOOLS" />
+          <SectionHeading title="PROJECTS_&&_TOOLS" />
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
             {siteData.projects.map((project, idx) => (
