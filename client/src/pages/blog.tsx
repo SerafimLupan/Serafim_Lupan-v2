@@ -64,9 +64,9 @@ const BLOG_POSTS: BlogPost[] = [
 I recently participated in **UNbreakable Romania Teams - Edition 2026** with my team **\"Tsha_lava\": me, Dragoș and Bogdan. The competition lasted 48 hours, during which 21 challenges were made available, 11 different categories that we had to solve, with dynamic scoring. Out of 294 teams, 200 obtained a positive score, and our team obtained 43rd place, solving 8 challenges out of 21.
 
 Team score:
-* __Dragoș__ (Team leader) - 413 pts.
-* __Serafim__ (Member) - 0 pts.
-* __Bogdan__ (Member) - 835 pts.
+* __Dragoș__ (Team leader) - __413__ pts.
+* __Serafim__ (Member) - __0__ pts.
+* __Bogdan__ (Member) - __835__ pts.
 
 Total: **1,248 pts**.
 
