@@ -61,7 +61,7 @@ const BLOG_POSTS: BlogPost[] = [
     date: "2026-03-09 12:30 PM",
     summary: "What is going on with my CYBERSECURITY learning journey?",
     content: `
-I recently participated in **UNbreakable Romania Teams - Edition 2026** with my team **\"Tsha_lava\": me, Dragoș and Bogdan. The competition lasted 48 hours, during which 21 challenges were made available, 11 different categories that we had to solve, with dynamic scoring. Out of 294 teams, 200 obtained a positive score, and our team obtained 43rd place, solving 8 challenges out of 21.
+I recently participated in **UNbreakable Romania Teams - Edition 2026** with my team **\"Tsha_lava\"**: me, Dragoș and Bogdan. The competition lasted 48 hours, during which 21 challenges were made available, 11 different categories that we had to solve, with dynamic scoring. Out of 294 teams, 200 obtained a positive score, and our team obtained 43rd place, solving 8 challenges out of 21.
 
 Team score:
 * __Dragoș__ (Team leader) - __413__ pts.
