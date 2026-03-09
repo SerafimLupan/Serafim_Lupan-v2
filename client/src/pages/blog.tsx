@@ -56,6 +56,25 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "10",
+    title: "My progress in CYBERSECURITY",
+    date: "2026-03-09 12:30 PM",
+    summary: "What is going on with my CYBERSECURITY learning journey?",
+    content: `
+I recently participated in UNbreakable Romania Teams - Edition 2026 with my team Tsha_lava: me, Dragoș and Bogdan. The competition lasted 48 hours, during which 21 challenges were made available, 11 different categories that we had to solve, with dynamic scoring. Out of 294 teams, 200 obtained a positive score, and our team obtained 43rd place, solving 8 challenges out of 21.
+
+Team score:
+* __Dragoș__ (Team leader) - 413 pts.
+* __Serafim__ (Member) - 0 pts.
+* __Bogdan__ (Member) - 835 pts.
+
+Total: 1,248 pts.
+
+For my first participation, it's a start, I gained experience from this, I learned from my mistakes and it's a reason to motivate me to prepare intensively not only for the upcoming competitions but also for those from last year.
+    
+    `
+  },
+  {
     id: "9",
     title: "What competitions will I participate in in the near future?",
     date: "2026-03-05 11:50 AM",
