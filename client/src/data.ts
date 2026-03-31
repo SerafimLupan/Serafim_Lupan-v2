@@ -67,7 +67,7 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
       },
       {
         date: "02.2025",
-        title: "XXVII place at Tekwill Junior Ambassadors",
+        title: "XVII place at Tekwill Junior Ambassadors",
         level: "Republican Competition"
       },
       {
