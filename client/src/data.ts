@@ -61,6 +61,11 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
     ],
     achievements: [
       {
+        date: "06.03.2026 - 08.03.2026",
+        title: "XLIII place at UNbreakable Romania Teams - Edition 2026",
+        level: "National Level"
+      },
+      {
         date: "02.2025",
         title: "I place at the Informatics Olympiad",
         level: "County Level"
@@ -121,7 +126,7 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
     {
       name: "CTF_HELPER",
       url: "https://github.com/SerafimLupan/CTF_HELPER",
-      date: "02.02.2026 - present",
+      date: "02.02.2026",
       description: "A modular automation framework inspired by HackTricks methodology, designed for streamlined CTF reconnaissance and exploitation."
     }
   ],
