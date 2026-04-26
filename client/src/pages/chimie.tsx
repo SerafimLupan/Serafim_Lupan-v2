@@ -25,11 +25,21 @@ const Chimie = () => {
       {/* Prezentare */}
       <div className="w-full flex justify-center">
         <iframe 
-          src="https://prezi.com/view/eFCU52KJLZiOd8nQ8izo/"
-          title="Prezentarea"
+          src="https://prezi.com/p/embed/eFCU52KJLZiOd8nQ8izo/" 
+          webkitallowfullscreen="true" 
+          mozallowfullscreen="true" 
+          allowfullscreen="true" 
+          allow="autoplay; fullscreen" 
           className="w-full max-w-[1000px] h-[500px] rounded-xl shadow-lg"
           frameBorder="0">
         </iframe>
+        <a 
+          href="https://prezi.com/view/eFCU52KJLZiOd8nQ8izo/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="mt-4 text-blue-500 underline">
+          Nu se încarcă prezentarea? Vezi direct pe Prezi.
+        </a>
       </div>
     </div>
   );
