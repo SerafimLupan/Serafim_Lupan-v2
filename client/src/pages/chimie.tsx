@@ -4,7 +4,7 @@ const Chimie = () => {
   return (
     <div className="flex flex-col items-center min-h-screen p-8">
        {/* Titlu */}
-      <h1 className="text-center text-[40px] md:text-[72px] font-bold my-10">
+      <h1 className="text-center text-[40px] md:text-[72px] font-bold my-10 text-pink-500">
         Săpunurile: Chimie Organică
       </h1>
 
