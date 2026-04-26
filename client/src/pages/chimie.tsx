@@ -33,6 +33,9 @@ const Chimie = () => {
           className="w-full max-w-[1000px] h-[500px] rounded-xl shadow-lg"
           frameBorder="0">
         </iframe>
+
+        <br/><br/>
+        
         <a 
           href="https://prezi.com/view/eFCU52KJLZiOd8nQ8izo/" 
           target="_blank" 
