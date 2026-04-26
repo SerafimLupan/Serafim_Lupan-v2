@@ -3,8 +3,11 @@ import React from 'react';
 const Chimie = () => {
   return (
     <div>
-      <h1>Pagina de Chimie</h1>
-      <p>Aici vei adăuga resursele pentru chimie.</p>
+      <h1 class="text-center">Săpunurile: Chimie Organică</h1>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UV1OchR0Qdg?si=u7PaRn_2rPxJs1RW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      
+      
     </div>
   );
 };
