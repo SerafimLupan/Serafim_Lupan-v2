@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { Navbar } from "@/components/Navbar";
 import { MatrixBackground } from "@/components/MatrixBackground";
 import { SectionHeading } from "@/components/SectionHeading";
