@@ -19,7 +19,7 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/blog" component={Blog} /> 
       <Route path="/chimie" component={chimie} />
-      <Route path="/90learnOfCS" component={90learn} />
+      <Route path="/90learn" component={90learn} />
       <Route component={NotFound} />
     </Switch>
   );
