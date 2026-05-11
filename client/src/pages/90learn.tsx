@@ -13,9 +13,9 @@ import { useToast } from "@/hooks/use-toast";
 
 
 const 90learn = () => {
-  return(
+  return (
     
   );  
 };
 
-export default 90learn
+export default 90learn;
