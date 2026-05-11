@@ -8,10 +8,10 @@ import { Copy, Check } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 
-const 90learn = () => {
+const learn = () => {
   return (
     <h1>90 learn of cybersecurity<h1/>
   );  
 };
 
-export default 90learn;
+export default learn;
