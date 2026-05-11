@@ -7,7 +7,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/Home";
 import Blog from "@/pages/blog"; 
 import chimie from "@/pages/chimie";
-import 90learn from "@/pages/90learn";
+import learnCS from "@/pages/learn";
 
 import NotFound from "@/pages/not-found";
  
@@ -19,7 +19,7 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/blog" component={Blog} /> 
       <Route path="/chimie" component={chimie} />
-      <Route path="/90learn" component={90learn} />
+      <Route path="/learncs" component={learnCS} />
       <Route component={NotFound} />
     </Switch>
   );
