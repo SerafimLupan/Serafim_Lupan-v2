@@ -10,7 +10,9 @@ import { useToast } from "@/hooks/use-toast";
 
 const learn = () => {
   return (
-    <h1>90 learn of cybersecurity<h1/>
+    <h1 className="text-center text-[40px] md:text-[72px] font-bold my-10 text-pink-500">
+        90 days of cybersecurity
+      </h1
   );  
 };
 
