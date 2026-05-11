@@ -14,7 +14,7 @@ import { useToast } from "@/hooks/use-toast";
 
 const 90learn = () => {
   return (
-    
+    <h1>90 learn of cybersecurity<h1/>
   );  
 };
 
