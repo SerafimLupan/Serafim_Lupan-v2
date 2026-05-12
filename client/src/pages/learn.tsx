@@ -292,7 +292,7 @@ function ProfileScreen() {
     <div style={{ flex: 1, overflowY: "auto", padding: "20px 24px 80px", background: "#000" }}>
       <div style={{ fontFamily: "var(--font-mono,'Fira Code',monospace)", fontSize: 13, letterSpacing: 2, color: "#00FF00", marginBottom: 24, fontWeight: 700 }}>{">"} PROFILE.SH</div>
       <div style={{ display: "flex", alignItems: "center", gap: 20, border: "1px solid #00FF00", padding: 20, marginBottom: 28, background: "#050f05", boxShadow: "0 0 20px #00FF0011" }}>
-        <div style={{ width: 72, height: 72, borderRadius: "50%", border: "2px solid #00FF00", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 32, flexShrink: 0 }}>👤</div>
+        <div style={{ width: 72, height: 72, borderRadius: "50%", border: "2px solid #00FF00", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 32, flexShrink: 0 }}>👨🏻‍💻</div>
         <div style={{ flex: 1 }}>
           <div style={{ fontFamily: "var(--font-mono,'Fira Code',monospace)", fontSize: 8, letterSpacing: 3, color: "#4a8a4a" }}>LEVEL</div>
           <div style={{ fontFamily: "var(--font-mono,'Fira Code',monospace)", fontSize: 13, fontWeight: 700, color: "#00FF00", letterSpacing: 1, margin: "4px 0 12px" }}>{level}</div>
