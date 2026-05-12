@@ -744,3 +744,4 @@ export function getLessonByDay(day: number): Lesson | undefined {
 export function getModuleForDay(day: number): Module | undefined {
   return MODULES.find((m) => m.days.includes(day));
 }
+
