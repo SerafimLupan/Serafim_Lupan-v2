@@ -66,7 +66,6 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
       });
       form.reset();
     } else {
-      // Dacă Web3Forms returnează succes: false
       throw new Error("API Error");
     }
 
