@@ -45,7 +45,6 @@ const CodeBlock = ({ children }: any) => {
   );
 };
 
-// Tip pentru postările noastre
 interface BlogPost {
   id: string;
   title: string;
@@ -813,7 +812,6 @@ export default function Blog() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           
           {!selectedPost ? (
-            // Lista de postări
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -843,7 +841,6 @@ export default function Blog() {
               </div>
             </motion.div>
           ) : (
-            // Vizualizare postare individuală
             <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
