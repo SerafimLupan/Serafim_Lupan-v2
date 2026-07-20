@@ -16,7 +16,7 @@ export default function NotFound() {
 
   return (
     <div className="min-h-screen w-full flex flex-col items-center justify-center bg-black text-green-500 font-mono p-4">
-      {/* Container pentru ASCII Art - Overflow auto for small displays */}
+      {/* Container for ASCII Art - Overflow auto for small displays */}
       <div className="w-full overflow-x-auto flex justify-center mb-8">
         <pre className="text-[10px] md:text-sm leading-none opacity-80 animate-pulse">
           {asciiArt}
