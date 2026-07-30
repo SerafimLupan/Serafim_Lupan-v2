@@ -60,7 +60,7 @@ const BLOG_POSTS: BlogPost[] = [
     date: "2026-05-12 12:30 PM",
     summary: "What is going on with my CYBERSECURITY learning journey? I participated at Cyber ​​Security Olympiad",
     content: `
-On **April 24**, **2026**, I participated in the **Cyber ​​Security Olympiad**, achieving a score of **42.7117 out of 100**. To qualify for the national stage, I had to have a **minimum of 60 out of 100**.
+On **April 24**, **2026**, I participated in the **Cyber ​​Security Olympiad**, achieving a score of **42.3251 out of 100**. To qualify for the national stage, I had to have a **minimum of 60 out of 100**.
 
 The results that will show my place in the **10th grade** rankings for **Suceava County**, **Romania**.
       `
