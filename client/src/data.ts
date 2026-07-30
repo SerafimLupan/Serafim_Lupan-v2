@@ -66,6 +66,11 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
         level: "National Level"
       },
       {
+        date: "04.2025",
+        title: "XI place at the Informatics Olympiad",
+        level: "Republican Level"
+      },
+      {
         date: "02.2025",
         title: "I place at the Informatics Olympiad",
         level: "County Level"
@@ -78,7 +83,7 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
       {
         date: "05.2024",
         title: "III place at Informatics Olympiad",
-        level: "Region Level"
+        level: "County Level"
       },
       {
         date: "06.2023",
