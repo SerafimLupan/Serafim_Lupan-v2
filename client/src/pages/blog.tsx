@@ -55,12 +55,29 @@ interface BlogPost {
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "12",
+    title: "My progress in CYBERSECURITY",
+    date: "2026-04-30 02:05 PM",
+    summary: "What is going on with my CYBERSECURITY learning journey? I participated at Cyber ​​Security Olympiad this is my places",
+    content: `
+On **April 30**, **2026**, I received the results of the **Cybersecurity Olympiad**.
+
+The results:
+* __County level__ (Suceava), 10th grade – __3rd__ place;
+* __County level__ (Suceava), all grades (9th–12th) – __13th__ place;
+* __National level__ (Romania), 10th grade – __63rd__ place;
+* __National level__ (Romania), all grades (9th–12th) – __220th__ place.
+
+These results reflected the work I put into preparing for the **Romanian Cybersecurity Olympiad**.
+    `
+  },
+  {
     id: "11",
     title: "My progress in CYBERSECURITY",
     date: "2026-05-12 12:30 PM",
     summary: "What is going on with my CYBERSECURITY learning journey? I participated at Cyber ​​Security Olympiad",
     content: `
-On **April 24**, **2026**, I participated in the **Cyber ​​Security Olympiad**, achieving a score of **42.3251 out of 100**. To qualify for the national stage, I had to have a **minimum of 60 out of 100**.
+On **April 24**, **2026**, I participated in the **Cybersecurity Olympiad**, achieving a score of **42.3251 out of 100**. To qualify for the national stage, I had to have a **minimum of 60 out of 100**.
 
 The results that will show my place in the **10th grade** rankings for **Suceava County**, **Romania**.
       `
@@ -74,8 +91,8 @@ The results that will show my place in the **10th grade** rankings for **Suceava
 I recently participated in **\"UNbreakable Romania Teams - Edition 2026\"** with my team **\"Tsha_lava\"**: me, Dragoș and Bogdan. The competition lasted 48 hours, during which 21 challenges were made available, 11 different categories that we had to solve, with dynamic scoring. Out of 294 teams, 200 obtained a positive score, and our team obtained 43rd place, solving 8 challenges out of 21.
 
 Team score:
-* __Dragoș__ (Team leader) - __413__ pts.
-* __Serafim__ (Member) - __0__ pts.
+* __Dragoș__ (Team leader) - __413__ pts.;
+* __Serafim__ (Member) - __0__ pts.;
 * __Bogdan__ (Member) - __835__ pts.
 
 Total: **1,248 pts**.
