@@ -60,40 +60,60 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
       }
     ],
     achievements: [
+       {
+        date: "24.04-2026",
+        title: "3rd place at Cybersecurity Olympiad",
+        level: "County level (Suceava), 10th grade"
+      },
+      {
+        date: "24.04-2026",
+        title: "13th place at Cybersecurity Olympiad",
+        level: "County level (Suceava), all grades (9th–12th)"
+      },
+      {
+        date: "24.04-2026",
+        title: "63rd place at Cybersecurity Olympiad",
+        level: "National Level (Romania), 10th grade"
+      },
+      {
+        date: "24.04-2026",
+        title: "220th place at Cybersecurity Olympiad",
+        level: "National Level (Romania), all grades (9th–12th)"
+      },
       {
         date: "06.03.2026 - 08.03.2026",
-        title: "XLIII place at UNbreakable Romania Teams - Edition 2026",
-        level: "National Level"
+        title: "43rd place at UNbreakable Romania Teams - Edition 2026",
+        level: "National Level (Romania)"
       },
       {
         date: "04.2025",
-        title: "XI place at the Informatics Olympiad",
-        level: "Republican Level"
+        title: "11th place at the Informatics Olympiad",
+        level: "Republican Level (Republic of Moldova)"
       },
       {
         date: "02.2025",
-        title: "I place at the Informatics Olympiad",
-        level: "County Level"
+        title: "1st place at the Informatics Olympiad",
+        level: "County Level (Causeni County, Republic of Moldova)"
       },
       {
         date: "02.2025",
-        title: "XVII place at Tekwill Junior Ambassadors",
-        level: "Republican Competition"
+        title: "17th place at Tekwill Junior Ambassadors",
+        level: "Republican Competition (Republic of Moldova)"
       },
       {
         date: "05.2024",
-        title: "III place at Informatics Olympiad",
-        level: "County Level"
+        title: "3rd place at Informatics Olympiad",
+        level: "County Level (Causeni County, Republic of Moldova)"
       },
       {
         date: "06.2023",
-        title: "IV place at Tekwill Junior Ambassadors",
-        level: "Republican Competition"
+        title: "4rd place at Tekwill Junior Ambassadors",
+        level: "Republican Competition (Republica of Moldova)"
       },
       {
         date: "03.2023",
-        title: "II place at Tekwill Junior Ambassadors",
-        level: "Regional Competition"
+        title: "2nd place at Tekwill Junior Ambassadors",
+        level: "Regional Competition (The center region of Republic of Moldova)"
       },
       {
         date: "2020 - 2023",
