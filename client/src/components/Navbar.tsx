@@ -7,7 +7,7 @@ import { Link as ScrollLink } from "react-scroll";
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [location] = useLocation(); // <--- ACEASTA LINIE lipsea
+  const [location] = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,8 +22,8 @@ export function Navbar() {
     { name: "ABOUT", to: "about", type: "scroll" },
     { name: "EXPERIENCE", to: "experience", type: "scroll" },
     { name: "PROJECTS", to: "projects", type: "scroll" },
-    { name: "BLOG", to: "/blog", type: "route" }, 
     { name: "CONTACT", to: "contact", type: "scroll" },
+    { name: "BLOG", to: "/blog", type: "route" }, 
   ];
 
   return (
