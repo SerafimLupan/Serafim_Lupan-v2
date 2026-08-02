@@ -61,22 +61,22 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
     ],
     achievements: [
        {
-        date: "24.04-2026",
+        date: "24.04.2026",
         title: "3rd place at Cybersecurity Olympiad",
         level: "County level (Suceava), 10th grade"
       },
       {
-        date: "24.04-2026",
+        date: "24.04.2026",
         title: "13th place at Cybersecurity Olympiad",
         level: "County level (Suceava), all grades (9th–12th)"
       },
       {
-        date: "24.04-2026",
+        date: "24.04.2026",
         title: "63rd place at Cybersecurity Olympiad",
         level: "National Level (Romania), 10th grade"
       },
       {
-        date: "24.04-2026",
+        date: "24.04.2026",
         title: "220th place at Cybersecurity Olympiad",
         level: "National Level (Romania), all grades (9th–12th)"
       },
