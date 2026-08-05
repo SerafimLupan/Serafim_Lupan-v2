@@ -9,7 +9,7 @@ export const siteData = {
       email: "serafimlupan.web@gmail.com",
       github: "https://github.com/SerafimLupan",
       linkedin: "https://linkedin.com/in/serafimlupan",
-      website: "https://serafimlupan.site"
+      website: "https://serafimlupan.com"
     },
     languages: [
       { name: "Romanian", level: "Native" },
