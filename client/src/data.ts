@@ -125,28 +125,10 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
 
   projects: [
     {
-      name: "TIFS Project",
-      url: "https://serafimlupan.github.io/DezvoltareWeb/",
-      date: "10.2022 - 03.2023",
-      description: "Web fundamentals (HTML/CSS/JS)."
-    },
-    {
-      name: "Vladiox Store",
-      url: "https://github.com/SerafimLupan",
-      date: "10.2022 - 06.2023",
-      description: "E-commerce furniture store concept."
-    },
-    {
-      name: "REWERS Barbershop",
-      url: "https://serafimlupan.github.io/Serafim_Lupan-v1/projects/Rewers%20BARBERSHOP%20website/index.html",
-      date: "12.2023 - 01.2024",
-      description: "Modern layout and booking section. Not finished because of the barbershop owner."
-    },
-    {
-      name: "Local_NetScan",
-      url: "https://github.com/SerafimLupan/Local_NetScan",
-      date: "10.01.2026",
-      description: "A professional Bash script for automated local network discovery, host identification, and port scanning."
+      name: "history-website",
+      url: "https://istorie.serafimlupan.com",
+      date: "11.06.2026 - present",
+      description: "Web site for my history project that will be presented in January 2027 at a competition"
     },
     {
       name: "CTF_HELPER",
@@ -155,11 +137,29 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
       description: "A modular automation framework inspired by HackTricks methodology, designed for streamlined CTF reconnaissance and exploitation."
     },
     {
-      name: "history-website",
-      url: "https://istorie.serafimlupan.com",
-      date: "11.06.2026 - present",
-      description: "Web site for my history project that will be presented in January 2027 at a competition"
+      name: "Local_NetScan",
+      url: "https://github.com/SerafimLupan/Local_NetScan",
+      date: "10.01.2026",
+      description: "A professional Bash script for automated local network discovery, host identification, and port scanning."
     },
+     {
+      name: "REWERS Barbershop",
+      url: "https://serafimlupan.github.io/Serafim_Lupan-v1/projects/Rewers%20BARBERSHOP%20website/index.html",
+      date: "12.2023 - 01.2024",
+      description: "Modern layout and booking section. Not finished because of the barbershop owner."
+    },
+    {
+      name: "Vladiox Store",
+      url: "https://github.com/SerafimLupan",
+      date: "10.2022 - 06.2023",
+      description: "E-commerce furniture store concept."
+    },
+    {
+      name: "TIFS Project",
+      url: "https://serafimlupan.github.io/DezvoltareWeb/",
+      date: "10.2022 - 03.2023",
+      description: "Web fundamentals (HTML/CSS/JS)."
+    },    
   ],
 
   certifications: [
