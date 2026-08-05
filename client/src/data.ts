@@ -124,12 +124,6 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
   },
 
   projects: [
-   {
-      name: "REWERS Barbershop",
-      url: "https://serafimlupan.github.io/Serafim_Lupan-v1/projects/Rewers%20BARBERSHOP%20website/index.html",
-      date: "12.2023 - 01.2024",
-      description: "Modern layout and booking section. Not finished because of the barbershop owner."
-    }, 
     {
       name: "TIFS Project",
       url: "https://serafimlupan.github.io/DezvoltareWeb/",
@@ -141,6 +135,12 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
       url: "https://github.com/SerafimLupan",
       date: "10.2022 - 06.2023",
       description: "E-commerce furniture store concept."
+    },
+    {
+      name: "REWERS Barbershop",
+      url: "https://serafimlupan.github.io/Serafim_Lupan-v1/projects/Rewers%20BARBERSHOP%20website/index.html",
+      date: "12.2023 - 01.2024",
+      description: "Modern layout and booking section. Not finished because of the barbershop owner."
     },
     {
       name: "Local_NetScan",
