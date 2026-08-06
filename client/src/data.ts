@@ -45,17 +45,17 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
     education: [
       {
         period: "09.2025 – present",
-        institution: 'College "Vasile Lovinescu", Falticeni Town, Suceava County, Romania',
+        institution: 'College "Vasile Lovinescu", Falticeni, Suceava County, Romania',
         details: "Specialization: Mathematics-Informatics | College Education"
       },
       {
         period: "09.2020 – 05.2025",
-        institution: "Theoretical High School “Alexei Mateevici” Causeni Town, Republic of Moldova",
+        institution: "Theoretical High School “Alexei Mateevici” Causeni, Republic of Moldova",
         details: "Secondary Education"
       },
       {
         period: "09.2016 – 05.2020",
-        institution: "Theoretical High School “Mihai Eminescu” Causeni Town, Republic of Moldova",
+        institution: "Theoretical High School “Mihai Eminescu” Causeni, Republic of Moldova",
         details: "Elementary Education"
       }
     ],
