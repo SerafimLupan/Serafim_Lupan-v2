@@ -150,7 +150,7 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
     },
     {
       name: "Vladiox Store",
-      url: "https://github.com/SerafimLupan",
+      url: "https://serafimlupan.github.io/Vladiox/",
       date: "10.2022 - 06.2023",
       description: "E-commerce furniture store concept."
     },
