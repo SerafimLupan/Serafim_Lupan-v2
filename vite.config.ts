@@ -14,10 +14,8 @@ export default defineConfig({
       "@assets": path.resolve(__dirname, "attached_assets"),
     },
   },
-  // Spunem clar unde este folderul cu codul de client
   root: path.resolve(__dirname, "client"),
   build: {
-    // Vercel se așteaptă ca fișierele finale să fie în 'dist', nu 'dist/public'
     outDir: path.resolve(__dirname, "dist"),
     emptyOutDir: true,
   },

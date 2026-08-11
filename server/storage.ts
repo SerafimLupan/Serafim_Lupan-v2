@@ -1,7 +1,6 @@
 import { type ContactMessage, type InsertContactMessage } from "@shared/schema";
 
 export interface IStorage {
-  // Add any methods if needed, for now just a placeholder
   createContactMessage(message: InsertContactMessage): Promise<number>;
 }
 
