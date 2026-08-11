@@ -143,6 +143,18 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
       description: "A professional Bash script for automated local network discovery, host identification, and port scanning."
     },
     {
+      name: "Serafim_Lupan-v2",
+      url: "https://serafimlupan.com",
+      date: "04.01.2026 - present",
+      description: "My personal portfolio website. It was created using React, TypeScript, and Tailwind CSS."
+    },
+    {
+      name: "Serafim_Lupan-v1",
+      url: "https://serafimlupan.github.io/Serafim_Lupan-v1/",
+      date: "24.10.2024 - 03.11.2025",
+      description: "My first personal portfolio website. It was created using HTML, CSS, and JavaScript."
+    },
+    {
       name: "REWERS Barbershop",
       url: "https://serafimlupan.github.io/Serafim_Lupan-v1/projects/Rewers%20BARBERSHOP%20website/index.html",
       date: "12.2023 - 01.2024",
