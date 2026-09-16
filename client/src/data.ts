@@ -59,6 +59,14 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
         details: "Elementary Education"
       }
     ],
+    volunteering: [
+      {
+        period: "09.2021 – 06.2025",
+        role: "IT Instructor & Robotics Club Mentor",
+        institution: 'District Public Library "Ion Ungureanu", Căușeni, Moldova',
+        details: "Co-instructed young students (ages 7-11) in basic programming, algorithmic logic, and building functional robots. Prepared youth teams for regional robotics competitions and maintained IT laboratory equipment."
+      }
+    ],
     achievements: [
       {
         date: "24.04.2026",
