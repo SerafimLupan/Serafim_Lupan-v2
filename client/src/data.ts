@@ -184,12 +184,14 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
 
   certifications: [
     {
-      name: "Legacy JavaScript Algorithms and Data Structures",
+      name: "Legacy JavaScript Algorithms and Data Structures Certification V7",
+      url: "https://www.freecodecamp.org/certification/serafim_lupan/javascript-algorithms-and-data-structures",
       date: "11.2023",
       issuer: "freeCodeCamp"
     },
     {
-      name: "Responsive Web Design",
+      name: "Legacy Responsive Web Design Certification V8",
+      url: "https://www.freecodecamp.org/certification/serafim_lupan/responsive-web-design",
       date: "10.2023",
       issuer: "freeCodeCamp"
     },
