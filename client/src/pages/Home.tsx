@@ -232,6 +232,24 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
               </div>
             </div>
 
+            <div>
+              <h3 className="text-2xl font-bold text-white mb-8 flex items-center">
+                <Award className="mr-3 text-primary" /> Achievements
+              </h3>
+              <div className="space-y-4">
+                {siteData.experience.achievements.map((achievement, idx) => (
+                  <Card key={idx} delay={idx * 0.1} className="py-4 px-6 border-l-4 border-l-primary/50">
+                    <div className="flex justify-between items-start mb-1">
+                      <span className="text-primary text-xs font-bold">{achievement.date}</span>
+                      <span className="text-gray-500 text-xs uppercase">{achievement.level}</span>
+                    </div>
+                    <h4 className="text-white font-medium">{achievement.title}</h4>
+                    {achievement.details && <p className="text-gray-400 text-sm mt-1">{achievement.details}</p>}
+                  </Card>
+                ))}
+              </div>
+            </div>
+
             <div className="mt-16 border-t border-gray-800 pt-12">
               <h3 className="text-2xl font-bold text-white mb-8 flex items-center">
                 <HeartHandshake className="mr-3 text-primary" /> Volunteer Experience & Leadership
@@ -252,23 +270,6 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
               </div>
             </div>
 
-            <div>
-              <h3 className="text-2xl font-bold text-white mb-8 flex items-center">
-                <Award className="mr-3 text-primary" /> Achievements
-              </h3>
-              <div className="space-y-4">
-                {siteData.experience.achievements.map((achievement, idx) => (
-                  <Card key={idx} delay={idx * 0.1} className="py-4 px-6 border-l-4 border-l-primary/50">
-                    <div className="flex justify-between items-start mb-1">
-                      <span className="text-primary text-xs font-bold">{achievement.date}</span>
-                      <span className="text-gray-500 text-xs uppercase">{achievement.level}</span>
-                    </div>
-                    <h4 className="text-white font-medium">{achievement.title}</h4>
-                    {achievement.details && <p className="text-gray-400 text-sm mt-1">{achievement.details}</p>}
-                  </Card>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </section>
