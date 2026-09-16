@@ -12,10 +12,10 @@ export const siteData = {
       website: "https://serafimlupan.com"
     },
     languages: [
-      { name: "Romanian", level: "Native" },
-      { name: "Russian", level: "High Level" },
-      { name: "English", level: "B1" },
-      { name: "French", level: "A2" }
+      { name: "Romanian", details: "Native" },
+      { name: "Russian", details: "High Level" },
+      { name: "English", details: "B1" },
+      { name: "French", details: "A2" }
     ]
   },
   
@@ -71,57 +71,57 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
       {
         date: "24.04.2026",
         title: "3rd place at Cybersecurity Olympiad",
-        level: "County level (Suceava), 10th grade"
+        details: "County Level (Suceava), 10th grade"
       },
       {
         date: "24.04.2026",
         title: "13th place at Cybersecurity Olympiad",
-        level: "County level (Suceava), all grades (9th–12th)"
+        details: "County Level (Suceava), all grades (9th–12th)"
       },
       {
         date: "24.04.2026",
         title: "63rd place at Cybersecurity Olympiad",
-        level: "National Level (Romania), 10th grade"
+        details: "National Level (Romania), 10th grade"
       },
       {
         date: "24.04.2026",
         title: "220th place at Cybersecurity Olympiad",
-        level: "National Level (Romania), all grades (9th–12th)"
+        details: "National Level (Romania), all grades (9th–12th)"
       },
       {
         date: "06.03.2026 - 08.03.2026",
         title: "43rd place at UNbreakable Romania Teams - Edition 2026",
-        level: "National Level (Romania)"
+        details: "National Level (Romania)"
       },
       {
         date: "04.2025",
         title: "11th place at the Informatics Olympiad",
-        level: "Republican Level (Republic of Moldova)"
+        details: "Republican Level (Republic of Moldova)"
       },
       {
         date: "02.2025",
         title: "1st place at the Informatics Olympiad",
-        level: "County Level (Causeni County, Republic of Moldova)"
+        details: "County Level (Causeni County, Republic of Moldova)"
       },
       {
         date: "02.2025",
         title: "17th place at Tekwill Junior Ambassadors",
-        level: "Republican Competition (Republic of Moldova)"
+        details: "Republican Competition (Republic of Moldova)"
       },
       {
         date: "05.2024",
         title: "3rd place at Informatics Olympiad",
-        level: "County Level (Causeni County, Republic of Moldova)"
+        details: "County Level (Causeni County, Republic of Moldova)"
       },
       {
         date: "06.2023",
         title: "4rd place at Tekwill Junior Ambassadors",
-        level: "Republican Competition (Republica of Moldova)"
+        details: "Republican Competition (Republica of Moldova)"
       },
       {
         date: "03.2023",
         title: "2nd place at Tekwill Junior Ambassadors",
-        level: "Regional Competition (The center region of Republic of Moldova)"
+        details: "Regional Competition (The center region of Republic of Moldova)"
       },
       {
         date: "2020 - 2023",
