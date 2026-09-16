@@ -435,7 +435,7 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
           <div className="mt-12 text-center text-gray-500 text-sm">
             <p>Designed && Built by Serafim Lupan;</p>
             <p>Copyright (c) 2022-2026 Lupan Serafim (<a href="https://serafimlupan.com">serafimlupan.com</a>)</p>
-            <p className="mt-2 font-mono text-xs opacity-50">System.Version: 1.5.12</p>
+            <p className="mt-2 font-mono text-xs opacity-50">System.Version: 1.7.26</p>
           </div>
         </div>
       </section>
