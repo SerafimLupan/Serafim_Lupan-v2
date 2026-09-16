@@ -325,12 +325,25 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {siteData.certifications.map((cert, idx) => (
-                <Card key={idx} delay={idx * 0.1} className="flex items-center justify-between">
+                <Card key={idx} delay={idx * 0.1} className="flex items-center justify-between p-4">
                   <div>
-                    <h4 className="text-lg font-bold text-white">{cert.name}</h4>
+                    <div className="flex items-center gap-2">
+                      <h4 className="text-lg font-bold text-white">{cert.name}</h4>
+                      {cert.url && (
+                        <a
+                          href={cert.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-gray-400 hover:text-primary transition-colors"
+                          title="Verify Credential"
+                        >
+                          <ExternalLink className="h-4 w-4" />
+                        </a>
+                      )}
+                    </div>
                     <p className="text-sm text-gray-500">{cert.issuer}</p>
                   </div>
-                  <span className="text-primary font-mono text-sm border border-primary/30 px-3 py-1">
+                  <span className="text-primary font-mono text-sm border border-primary/30 px-3 py-1 shrink-0 ml-4">
                     {cert.date}
                   </span>
                 </Card>
