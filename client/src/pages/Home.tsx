@@ -228,7 +228,13 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
                       <span className="absolute -left-[39px] top-1 h-5 w-5 rounded-full bg-black border-2 border-primary" />
                       <span className="text-primary text-sm font-bold tracking-widest">{edu.period}</span>
                       <h4 className="text-xl text-white font-bold mt-1">{edu.institution}</h4>
-                      <p className="text-gray-400 mt-2">{edu.details}</p>
+                      <p className="text-primary/80 text-sm font-semibold">{edu.degree} — {edu.specialization}</p>
+                      {edu.gpa && (
+                        <span className="inline-block mt-2 text-xs font-mono text-primary bg-primary/10 border border-primary/30 px-2 py-0.5">
+                          GPA: {edu.gpa}
+                        </span>
+                      )}
+                      <p className="text-gray-400 mt-2 text-sm leading-relaxed">{edu.details}</p>
                     </motion.div>
                   ))}
                 </div>
