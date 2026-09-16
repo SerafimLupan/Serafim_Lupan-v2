@@ -325,26 +325,23 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {siteData.certifications.map((cert, idx) => (
-                <Card key={idx} delay={idx * 0.1} className="flex items-start justify-between p-5 relative">
-                  <div className="pr-4">
+                <Card key={idx} delay={idx * 0.1} className="flex flex-col justify-between p-5 h-full">
+                  <div className="flex justify-between items-start gap-4 mb-4">
                     <h4 className="text-lg font-bold text-white leading-snug">{cert.name}</h4>
-                    <p className="text-sm text-gray-500 mt-1">{cert.issuer}</p>
-                  </div>
-              
-                  <div className="flex flex-col items-end gap-2 shrink-0">
-                    {cert.url ? (
+                    {cert.url && (
                       <a
                         href={cert.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center text-xs font-mono text-primary hover:underline hover:text-primary/80 transition-colors"
+                        className="inline-flex items-center text-xs font-mono text-primary hover:underline hover:text-primary/80 transition-colors shrink-0"
                       >
                         Credential <ExternalLink className="ml-1 h-3.5 w-3.5" />
                       </a>
-                    ) : (
-                      <span className="text-xs font-mono text-gray-600">No Link</span>
                     )}
-          
+                  </div>
+                  
+                  <div className="flex justify-between items-center mt-auto pt-2 border-t border-gray-900">
+                    <span className="text-sm text-gray-500 font-medium">{cert.issuer}</span>
                     <span className="text-primary font-mono text-xs border border-primary/30 px-2.5 py-1">
                       {cert.date}
                     </span>
