@@ -207,31 +207,56 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
       <section id="experience" className="py-24">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading title="EXPERIENCE_&&_EDUCATION" align="left" />
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-2xl font-bold text-white mb-8 flex items-center">
-                <GraduationCap className="mr-3 text-primary" /> Education History
-              </h3>
-              <div className="space-y-8 border-l border-primary/20 ml-3 pl-8 relative">
-                {siteData.experience.education.map((edu, idx) => (
-                  <motion.div 
-                    key={idx}
-                    initial={{ opacity: 0, x: -20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: false }}
-                    transition={{ delay: idx * 0.1 }}
-                    className="relative"
-                  >
-                    <span className="absolute -left-[39px] top-1 h-5 w-5 rounded-full bg-black border-2 border-primary" />
-                    <span className="text-primary text-sm font-bold tracking-widest">{edu.period}</span>
-                    <h4 className="text-xl text-white font-bold mt-1">{edu.institution}</h4>
-                    <p className="text-gray-400 mt-2">{edu.details}</p>
-                  </motion.div>
-                ))}
+            <div className="space-y-12">
+              {/* Education History */}
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-8 flex items-center">
+                  <GraduationCap className="mr-3 text-primary" /> Education History
+                </h3>
+                <div className="space-y-8 border-l border-primary/20 ml-3 pl-8 relative">
+                  {siteData.experience.education.map((edu, idx) => (
+                    <motion.div 
+                      key={idx}
+                      initial={{ opacity: 0, x: -20 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: false }}
+                      transition={{ delay: idx * 0.1 }}
+                      className="relative"
+                    >
+                      <span className="absolute -left-[39px] top-1 h-5 w-5 rounded-full bg-black border-2 border-primary" />
+                      <span className="text-primary text-sm font-bold tracking-widest">{edu.period}</span>
+                      <h4 className="text-xl text-white font-bold mt-1">{edu.institution}</h4>
+                      <p className="text-gray-400 mt-2">{edu.details}</p>
+                    </motion.div>
+                  ))}
+                </div>
+              </div>
+                
+                      {/* Volunteer Experience */}
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-8 flex items-center">
+                  <HeartHandshake className="mr-3 text-primary" /> Volunteer Experience & Leadership
+                </h3>
+                <div className="space-y-4">
+                  {siteData?.experience?.volunteering?.map((vol, idx) => (
+                    <Card key={idx} delay={idx * 0.1} className="py-4 px-6 border-l-4 border-l-primary/50 bg-black/60">
+                      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-1 gap-1">
+                        <h4 className="text-lg text-white font-bold">{vol.role}</h4>
+                        <span className="text-primary text-xs font-bold font-mono px-2 py-0.5 border border-primary/30">
+                          {vol.period}
+                        </span>
+                      </div>
+                      <p className="text-primary/80 text-xs mb-2 font-mono">{vol.institution}</p>
+                      <p className="text-gray-400 text-sm leading-relaxed">{vol.details}</p>
+                    </Card>
+                  ))}
+                </div>
               </div>
             </div>
-
+                
+                          {/*Achievements */}
             <div>
               <h3 className="text-2xl font-bold text-white mb-8 flex items-center">
                 <Award className="mr-3 text-primary" /> Achievements
@@ -249,27 +274,6 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
                 ))}
               </div>
             </div>
-
-            <div className="mt-16 border-t border-gray-800 pt-12">
-              <h3 className="text-2xl font-bold text-white mb-8 flex items-center">
-                <HeartHandshake className="mr-3 text-primary" /> Volunteer Experience & Leadership
-              </h3>
-              <div className="space-y-6">
-                {siteData?.experience?.volunteering?.map((vol, idx) => (
-                  <Card key={idx} delay={idx * 0.1} className="p-6 border-l-4 border-l-primary/50 bg-black/60">
-                    <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
-                      <h4 className="text-xl text-white font-bold">{vol.role}</h4>
-                      <span className="text-primary text-xs font-bold font-mono px-2 py-1 border border-primary/30 mt-1 md:mt-0">
-                        {vol.period}
-                      </span>
-                    </div>
-                    <p className="text-primary/80 text-sm mb-2">{vol.institution}</p>
-                    <p className="text-gray-400 text-sm leading-relaxed">{vol.details}</p>
-                  </Card>
-                ))}
-              </div>
-            </div>
-
           </div>
         </div>
       </section>
