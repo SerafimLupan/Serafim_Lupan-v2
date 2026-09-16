@@ -44,14 +44,20 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
   experience: {
     education: [
       {
-        period: "09.2025 – present",
-        institution: 'College "Vasile Lovinescu", Falticeni, Suceava County, Romania',
-        details: "Specialization: Mathematics-Informatics | College Education"
+        period: "09.2025 – 06.2028",
+        degree: "High School Diploma (Baccalaureate)",
+        specialization: "Mathematics-Informatics",
+        institution: 'College "Vasile Lovinescu", Fălticeni, Romania',
+        gpa: "9.79 / 10.00 (10th Grade)",
+        details: "Intensive curriculum focused on algorithms, data structures, computer science fundamentals, and cybersecurity research."
       },
       {
         period: "09.2020 – 05.2025",
-        institution: "Theoretical High School “Alexei Mateevici” Causeni, Republic of Moldova",
-        details: "Secondary Education"
+        degree: "Gymnasium Education Certificate",
+        specialization: "STEM Disciplines",
+        institution: 'Theoretical High School "Alexei Mateevici", Căușeni, Moldova',
+        gpa: "8.49 / 10.00",
+        details: "Solid foundation in Mathematics, Physics, and Informatics. Active participation in regional robotics and coding competitions."
       },
       {
         period: "09.2016 – 05.2020",
