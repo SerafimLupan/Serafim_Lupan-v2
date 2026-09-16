@@ -13,7 +13,8 @@ import {
   ShieldAlert, 
   ExternalLink,
   Award,
-  GraduationCap
+  GraduationCap,
+  HeartHandshake
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -227,6 +228,26 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
                     <h4 className="text-xl text-white font-bold mt-1">{edu.institution}</h4>
                     <p className="text-gray-400 mt-2">{edu.details}</p>
                   </motion.div>
+                ))}
+              </div>
+            </div>
+
+            <div className="mt-16 border-t border-gray-800 pt-12">
+              <h3 className="text-2xl font-bold text-white mb-8 flex items-center">
+                <HeartHandshake className="mr-3 text-primary" /> Volunteer Experience & Leadership
+              </h3>
+              <div className="space-y-6">
+                {siteData?.experience?.volunteering?.map((vol, idx) => (
+                  <Card key={idx} delay={idx * 0.1} className="p-6 border-l-4 border-l-primary/50 bg-black/60">
+                    <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-2">
+                      <h4 className="text-xl text-white font-bold">{vol.role}</h4>
+                      <span className="text-primary text-xs font-bold font-mono px-2 py-1 border border-primary/30 mt-1 md:mt-0">
+                        {vol.period}
+                      </span>
+                    </div>
+                    <p className="text-primary/80 text-sm mb-2">{vol.institution}</p>
+                    <p className="text-gray-400 text-sm leading-relaxed">{vol.details}</p>
+                  </Card>
                 ))}
               </div>
             </div>
