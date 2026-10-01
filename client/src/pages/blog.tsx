@@ -53,7 +53,28 @@ interface BlogPost {
   content: string;
 }
 
+/*
+Structure
+
+  {
+    id: "",
+    title: "",
+    date: "",
+    summary: "",
+    content: ``
+  },
+
+*/
+
+
 const BLOG_POSTS: BlogPost[] = [
+  {
+    id: "",
+    title: "",
+    date: "",
+    summary: "",
+    content: ``
+  },
   {
     id: "12",
     title: "My progress in CYBERSECURITY",
