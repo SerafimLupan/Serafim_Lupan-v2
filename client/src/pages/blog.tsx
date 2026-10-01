@@ -74,8 +74,7 @@ const BLOG_POSTS: BlogPost[] = [
     date: "2026-09-25 03:05 PM",
     summary: "What is going on with my CYBERSECURITY learning journey? Am I ",
     content: `
-Recently, I participated in The DefCamp Capture the Flag (D-CTF) 2026 Qualification Phase with my team motanulfericit: me, motanulfericit, xDarius, Cosma Razvan and unclesam007. The event lasted 48 hours from Friday, September 18, 2026 at 1:00 PM
-to Sunday, September 20, 2026 at 1:00 PM. This CTF consisted of 18 challenges, of which the team solved 17 with a score of 1623 points, obtaining 13th place internationally out of 886 teams, of which 323 with positive scores and 2nd place nationally (Romania) out of 133 Romanian teams.
+Recently, I participated in The DefCamp Capture the Flag (D-CTF) 2026 Qualification Phase with my team motanulfericit: me, motanulfericit, xDarius, Cosma Razvan and unclesam007. The event lasted 48 hours from Friday, September 18, 2026 at 1:00 PM to Sunday, September 20, 2026 at 1:00 PM. This CTF consisted of 18 challenges, of which the team solved 17 with a score of 1623 points, obtaining 13th place internationally out of 886 teams, of which 323 with positive scores and 2nd place nationally (Romania) out of 133 Romanian teams.
 
 Team score:
 * motanulfericit (Team Leader) - 1520 pts.;
@@ -83,6 +82,10 @@ Team score:
 * Cosma Razvan - 53 pts.;
 * Serafim - 0 pts.;
 * unclesam007 - 0 pts.
+
+Total: 1623 pts.
+
+For my first participation, it's a start, I gained experience from this, I learned from my mistakes and it's a reason to motivate me to prepare intensively not only for the upcoming competitions but also for those from last year.
 `
   },
   {
