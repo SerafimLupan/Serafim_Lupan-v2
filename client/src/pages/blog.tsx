@@ -80,6 +80,17 @@ Recently I participated at \"Def
   {
     id: "12",
     title: "My progress in CYBERSECURITY",
+    date: "2026-05-12 12:30 PM",
+    summary: "What is going on with my CYBERSECURITY learning journey? I participated at Cyber ​​Security Olympiad",
+    content: `
+On **April 24**, **2026**, I participated in the **Cybersecurity Olympiad**, achieving a score of **42.3251 out of 100**. To qualify for the national stage, I had to have a **minimum of 60 out of 100**.
+
+The results that will show my place in the **10th grade** rankings for **Suceava County**, **Romania**.
+      `
+  },
+  {
+    id: "11",
+    title: "My progress in CYBERSECURITY",
     date: "2026-04-30 02:05 PM",
     summary: "What is going on with my CYBERSECURITY learning journey? I participated at Cyber ​​Security Olympiad this is my places",
     content: `
@@ -93,17 +104,6 @@ The results:
 
 These results reflected the work I put into preparing for the **Romanian Cybersecurity Olympiad**.
     `
-  },
-  {
-    id: "11",
-    title: "My progress in CYBERSECURITY",
-    date: "2026-05-12 12:30 PM",
-    summary: "What is going on with my CYBERSECURITY learning journey? I participated at Cyber ​​Security Olympiad",
-    content: `
-On **April 24**, **2026**, I participated in the **Cybersecurity Olympiad**, achieving a score of **42.3251 out of 100**. To qualify for the national stage, I had to have a **minimum of 60 out of 100**.
-
-The results that will show my place in the **10th grade** rankings for **Suceava County**, **Romania**.
-      `
   },
   {
     id: "10",
