@@ -74,14 +74,14 @@ const BLOG_POSTS: BlogPost[] = [
     date: "2026-09-25 03:05 PM",
     summary: "What is going on with my CYBERSECURITY learning journey? Am I ",
     content: `
-Recently, I participated at **\"The DefCamp Capture the Flag (D-CTF) 2026 Qualification Phase\"** with my team **\"motanulfericit\"**: *me*, *motanulfericit*, *xDarius*, *Cosma Razvan* and *unclesam007*. The event lasted 48 hours from Friday, September 18, 2026 at 1:00 PM to Sunday, September 20, 2026 at 1:00 PM. This CTF consisted of 18 challenges, of which the team solved 17 with a score of 1623 points, obtaining 13th place internationally out of 886 teams, of which 323 with positive scores and 2nd place nationally (Romania) out of 133 Romanian teams.
+Recently, I participated at **\"The DefCamp Capture the Flag (D-CTF) 2026 Qualification Phase\"** with my team **\"motanulfericit\"**: *me*, *motanulfericit*, *xDarius*, *Cosma Razvan* and *unclesam007*. The event lasted **48 hours** from *Friday, September 18, 2026 at 1:00 PM* to *Sunday, September 20, 2026 at 1:00 PM*. This CTF consisted of 18 challenges, of which the team solved 17 with a score of **1623 points**, obtaining **13th place internationally** out of 886 teams, of which 323 with positive scores and **2nd place nationally (Romania)** out of 133 Romanian teams.
 
 Team score:
 * motanulfericit (Team Leader) - 1520 pts.;
-* xDarius - 50 pts.;
-* Cosma Razvan - 53 pts.;
-* Serafim - 0 pts.;
-* unclesam007 - 0 pts.
+* xDarius (Member) - 50 pts.;
+* Cosma Razvan (Member) - 53 pts.;
+* Serafim (Member) - 0 pts.;
+* unclesam007 (Member) - 0 pts.
 
 Total: 1623 pts.
 
@@ -122,7 +122,7 @@ These results reflected the work I put into preparing for the **Romanian Cyberse
     date: "2026-03-09 12:30 PM",
     summary: "What is going on with my CYBERSECURITY learning journey?",
     content: `
-I recently participated in **\"UNbreakable Romania Teams - Edition 2026\"** with my team **\"Tsha_lava\"**: me, Dragoș and Bogdan. The competition lasted 48 hours, during which 21 challenges were made available, 11 different categories that we had to solve, with dynamic scoring. Out of 294 teams, 200 obtained a positive score, and our team obtained 43rd place, solving 8 challenges out of 21.
+I recently participated in **\"UNbreakable Romania Teams - Edition 2026\"** with my team **\"Tsha_lava\"**: me, Dragoș and Bogdan. The competition lasted 48 hours, during which 21 challenges were made available, 11 different categories that we had to solve, with dynamic scoring. Out of 294 teams, 200 obtained a positive score, and our team obtained **43rd** place, solving 8 challenges out of 21.
 
 Team score:
 * __Dragoș__ (Team leader) - __413__ pts.;
