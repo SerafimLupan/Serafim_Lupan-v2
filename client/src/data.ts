@@ -75,6 +75,16 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
     ],
     achievements: [
       {
+        date: "20.09.2026",
+        title: "2nd in Romania at DefCamp CTF 2026 Quals",
+        details: "National Level (Romania)"
+      },
+      {
+        date: "20.09.2026",
+        title: "13th World in Romania at DefCamp CTF 2026 Quals",
+        details: "International Level"
+      },
+      {
         date: "24.04.2026",
         title: "3rd place at Cybersecurity Olympiad",
         details: "County Level (Suceava), 10th grade"
