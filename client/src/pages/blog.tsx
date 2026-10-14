@@ -86,6 +86,32 @@ Team score:
 Total: **1623 pts**.
 
 For my first participation, it's a start, I gained experience from this, I learned from my mistakes and it's a reason to motivate me to prepare intensively not only for the upcoming competitions but also for those from last year.
+
+#include <iostream>
+using namespace std;
+int main() {
+    char text[256];
+    cin.getline(text, 256);
+    char vocale[] = {'a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U'};
+    int contor = 0, i = 0;
+    while (text[i] != '\0') {
+        while (text[i] == ' ' && text[i] != '\0') i++;
+        if (text[i] == '\0') break;
+        int start = i;
+        while (text[i] != ' ' && text[i] != '\0') i++;
+        int end = i - 1;
+        int prima = 0, ultima = 0;
+        for (int v = 0; v < 10; v++) {
+            if (text[start] == vocale[v]) prima = 1;
+            if (text[end] == vocale[v]) ultima = 1;
+        }
+        if (prima && ultima) contor++;
+    }
+    if (contor > 0) cout << contor << "\n";
+    else cout << "NU EXISTA\n";
+    return 0;
+}
+
 `
   },
   {
