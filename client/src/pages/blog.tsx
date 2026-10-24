@@ -87,8 +87,6 @@ Total: **1623 pts**.
 
 For my first participation, it's a start, I gained experience from this, I learned from my mistakes and it's a reason to motivate me to prepare intensively not only for the upcoming competitions but also for those from last year.
 
-}
-
 `
   },
   {
