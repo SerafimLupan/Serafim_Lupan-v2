@@ -71,9 +71,13 @@ const BLOG_POSTS: BlogPost[] = [
   {
     id: "14",
     title: "My progress in CYBERSECURITY",
-    date: "",
-    summary: "",
-    content: ``
+    date: "2026-11-21 11:30 AM",
+    summary: "The final results at DefCamp 2026 finals",
+    content: `
+
+    
+    
+`
   },
   {
     id: "13",
