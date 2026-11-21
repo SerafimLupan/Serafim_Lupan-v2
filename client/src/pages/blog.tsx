@@ -79,7 +79,7 @@ const BLOG_POSTS: BlogPost[] = [
     id: "13",
     title: "My progress in CYBERSECURITY",
     date: "2026-09-25 03:05 PM",
-    summary: "What is going on with my CYBERSECURITY learning journey? Am I qualified?,
+    summary: "What is going on with my CYBERSECURITY learning journey? Am I qualified?",
     content: `
 Recently, I participated at **\"The DefCamp Capture the Flag (D-CTF) 2026 Qualification Phase\"** with my team **\"motanulfericit\"**: __*me*__, __*motanulfericit*__, __*xDarius*__, __*Cosma Razvan*__ and __*unclesam007*__. The event lasted **48 hours** from *Friday, September 18, 2026 at 1:00 PM* to *Sunday, September 20, 2026 at 1:00 PM*. This CTF consisted of 18 challenges, of which the team solved 17 with a score of **1623 points**, obtaining **13th place internationally** out of 886 teams, of which 323 with positive scores and **2nd place nationally (Romania)** out of 133 Romanian teams.
 
