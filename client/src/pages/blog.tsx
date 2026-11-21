@@ -69,6 +69,13 @@ Structure
 
 const BLOG_POSTS: BlogPost[] = [
   {
+    id: "14",
+    title: "My progress in CYBERSECURITY",
+    date: "",
+    summary: "",
+    content: ``
+  },
+  {
     id: "13",
     title: "My progress in CYBERSECURITY",
     date: "2026-09-25 03:05 PM",
