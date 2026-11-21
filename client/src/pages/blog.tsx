@@ -74,7 +74,7 @@ const BLOG_POSTS: BlogPost[] = [
     date: "2026-11-21 11:30 AM",
     summary: "The final results at DefCamp Capture the Flag x TFCCTF 2026 - The Final",
     content: `
-Yes, I qualified for DefCamp Capture the Flag x TFC CTF 2026 - The Final with my team \"motanulfericit\": __*me*__, __*motanulfericit*__, __*xDarius*__, __*Cosma Razvan*__ and __*unclesam007*__. The event lasted **8 hours** from *Thursday, November 19, 2026 at 10:10 AM* to *, Thursday, November 19, 2026 at 6:00 PM*. This CTF consisted of 20 challenges, of which we could not solve them, obtaining **15th place internationally** out of 15 teams...
+Yes, I qualified for **\"DefCamp Capture the Flag x TFC CTF 2026 - The Final\"** with my team **\"motanulfericit\"**: __*me*__, __*motanulfericit*__, __*xDarius*__, __*Cosma Razvan*__ and __*unclesam007*__. The event lasted **8 hours** from *Thursday, November 19, 2026 at 10:10 AM* to *, Thursday, November 19, 2026 at 6:00 PM*. This CTF consisted of 20 challenges, of which we could not solve them, obtaining **15th place internationally** out of 15 teams...
     
     
 `
