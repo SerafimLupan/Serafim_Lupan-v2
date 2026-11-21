@@ -75,6 +75,11 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
     ],
     achievements: [
       {
+        date: "19.11.2026 - 20.11.2026",
+        title: "15th World in Romania at DefCamp CTF 2026 final",
+        details: "International Level"
+      },
+      {
         date: "20.09.2026",
         title: "2nd in Romania at DefCamp CTF 2026 Quals",
         details: "National Level (Romania)"
