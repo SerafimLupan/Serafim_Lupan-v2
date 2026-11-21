@@ -3,7 +3,7 @@
 export const siteData = {
   identity: {
     name: "Lupan Serafim",
-    role: "Penetration Tester | Security Researcher",
+    role: "Penetration Tester | Security Researcher | CTF Player",
     bio: "Communicative, analytical, ambitious, persistent, disciplined, and punctual. Creative team player, easily adaptable to new technologies.",
     contact: {
       email: "serafimlupan.web@gmail.com",
