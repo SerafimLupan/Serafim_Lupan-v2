@@ -21,7 +21,7 @@ export const siteData = {
   
   hero: {
     title: "SERAFIM LUPAN",
-    subtitle: "PENETRATION TESTER && SECURITY RESEARCHER",
+    subtitle: "PEN-TESTER && SECURITY RESEARCHER && CTF PLAYER",
     asciiArt: `
                                          ,...  ,,                                                                                
  .M"""bgd                              .d' ""  db                        \`7MMF'                                                  
