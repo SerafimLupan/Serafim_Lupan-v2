@@ -166,8 +166,8 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
     {
       name: "history-website",
       url: "https://istorie.serafimlupan.com",
-      date: "11.06.2026 - present",
-      description: "Web site for my history project that will be presented in January 2027 at a competition"
+      date: "11.06.2026 - 27.11.2026",
+      description: "Website originally created for a history project scheduled for a January 2027 competition. Due to time constraints and shifting priorities, this project has been discontinued."
     },
     {
       name: "CTF_HELPER",
