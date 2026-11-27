@@ -6,7 +6,7 @@ import { GlitchText } from "@/components/GlitchText";
 import { siteData } from "@/data";
 import { 
   Terminal, 
-  Download, Github, Flag,
+  Download, Github, Gitlab, Flag, Bug, Cloud, Box,
   ChevronRight,   Code, 
   Cpu, 
   ShieldAlert, 
