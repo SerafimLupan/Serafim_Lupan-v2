@@ -149,10 +149,47 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
               variant="outline"
               className="border-primary text-primary hover:bg-primary/10 rounded-none px-8 py-6 text-lg bg-transparent"
             >
+              <a href={siteData.about.gitlabUrl} target="_blank" rel="noopener noreferrer">
+                <Gitlab className="mr-2 h-5 w-5" /> GitLab Profile
+              </a>
+            </Button>
+              <Button
+              asChild
+              variant="outline"
+              className="border-primary text-primary hover:bg-primary/10 rounded-none px-8 py-6 text-lg bg-transparent"
+            >
               <a href={siteData.about.ctfTimeUrl} target="_blank" rel="noopener noreferrer">
                 <Flag className="mr-2 h-5 w-5" /> CTFtime Profile
               </a>
             </Button>
+              <Button
+              asChild
+              variant="outline"
+              className="border-primary text-primary hover:bg-primary/10 rounded-none px-8 py-6 text-lg bg-transparent"
+            >
+              <a href={siteData.about.hackerOneUrl} target="_blank" rel="noopener noreferrer">
+                <Bug className="mr-2 h-5 w-5" /> HackerOne Profile
+              </a>
+            </Button>
+              <Button
+              asChild
+              variant="outline"
+              className="border-primary text-primary hover:bg-primary/10 rounded-none px-8 py-6 text-lg bg-transparent"
+            >
+              <a href={siteData.about.tryHackMeUrl} target="_blank" rel="noopener noreferrer">
+                <Cloud className="mr-2 h-5 w-5" /> TryHackMe Profile
+              </a>
+            </Button>
+              <Button
+              asChild
+              variant="outline"
+              className="border-primary text-primary hover:bg-primary/10 rounded-none px-8 py-6 text-lg bg-transparent"
+            >
+              <a href={siteData.about.hackTheBoxUrl} target="_blank" rel="noopener noreferrer">
+                <Box className="mr-2 h-5 w-5" /> Hack The Box Profile
+              </a>
+            </Button>
+              
             </motion.div>
           </div>
         </div>
