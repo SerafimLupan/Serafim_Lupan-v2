@@ -121,75 +121,83 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
               {siteData.hero.subtitle}
             </motion.h2>
             
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.1 }}
-              className="flex flex-col sm:flex-row gap-4"
+              className="flex flex-col gap-4 max-w-3xl mx-auto sm:mx-0"
             >
-              <Button 
-                asChild
-                className="bg-primary text-black hover:bg-primary/80 font-bold border-2 border-primary rounded-none px-8 py-6 text-lg"
-              >
-                <a href={siteData.cv.path} download={siteData.cv.filename}>
-                  <Download className="mr-2 h-5 w-5" /> Download CV
-                </a>
-              </Button>
-              <Button 
-                asChild
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary/10 rounded-none px-8 py-6 text-lg bg-transparent"
-              >
-                <a href={siteData.about.githubUrl} target="_blank" rel="noopener noreferrer">
-                  <Github className="mr-2 h-5 w-5" /> GitHub Profile
-                </a>
-              </Button>
-              <Button
-              asChild
-              variant="outline"
-              className="border-primary text-primary hover:bg-primary/10 rounded-none px-8 py-6 text-lg bg-transparent"
-            >
-              <a href={siteData.about.gitlabUrl} target="_blank" rel="noopener noreferrer">
-                <Gitlab className="mr-2 h-5 w-5" /> GitLab Profile
-              </a>
-            </Button>
-              <Button
-              asChild
-              variant="outline"
-              className="border-primary text-primary hover:bg-primary/10 rounded-none px-8 py-6 text-lg bg-transparent"
-            >
-              <a href={siteData.about.ctfTimeUrl} target="_blank" rel="noopener noreferrer">
-                <Flag className="mr-2 h-5 w-5" /> CTFtime Profile
-              </a>
-            </Button>
-              <Button
-              asChild
-              variant="outline"
-              className="border-primary text-primary hover:bg-primary/10 rounded-none px-8 py-6 text-lg bg-transparent"
-            >
-              <a href={siteData.about.hackerOneUrl} target="_blank" rel="noopener noreferrer">
-                <Bug className="mr-2 h-5 w-5" /> HackerOne Profile
-              </a>
-            </Button>
-              <Button
-              asChild
-              variant="outline"
-              className="border-primary text-primary hover:bg-primary/10 rounded-none px-8 py-6 text-lg bg-transparent"
-            >
-              <a href={siteData.about.tryHackMeUrl} target="_blank" rel="noopener noreferrer">
-                <Cloud className="mr-2 h-5 w-5" /> TryHackMe Profile
-              </a>
-            </Button>
-              <Button
-              asChild
-              variant="outline"
-              className="border-primary text-primary hover:bg-primary/10 rounded-none px-8 py-6 text-lg bg-transparent"
-            >
-              <a href={siteData.about.hackTheBoxUrl} target="_blank" rel="noopener noreferrer">
-                <Box className="mr-2 h-5 w-5" /> Hack The Box Profile
-              </a>
-            </Button>
-              
+              <div className="flex flex-col sm:flex-row flex-wrap gap-3">
+                <Button
+                  asChild
+                  className="bg-primary text-black hover:bg-primary/80 font-bold border-2 border-primary rounded-none px-6 py-5 text-base"
+                >
+                  <a href={siteData.cv.path} download={siteData.cv.filename}>
+                    <Download className="mr-2 h-5 w-5" /> Download CV
+                  </a>
+                </Button>
+
+                <Button
+                  asChild
+                  variant="outline"
+                  className="border-primary text-primary hover:bg-primary/10 rounded-none px-6 py-5 text-base bg-transparent"
+                >
+                  <a href={siteData.about.githubUrl} target="_blank" rel="noopener noreferrer">
+                    <Github className="mr-2 h-5 w-5" /> GitHub
+                  </a>
+                </Button>
+
+                <Button
+                  asChild
+                  variant="outline"
+                  className="border-primary text-primary hover:bg-primary/10 rounded-none px-6 py-5 text-base bg-transparent"
+                >
+                  <a href={siteData.about.gitlabUrl} target="_blank" rel="noopener noreferrer">
+                    <Gitlab className="mr-2 h-5 w-5" /> GitLab
+                  </a>
+                </Button>
+              </div>
+              <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-2.5">
+                <Button
+                  asChild
+                  variant="outline"
+                  className="border-primary/60 text-primary hover:bg-primary/10 hover:border-primary rounded-none px-4 py-2.5 text-sm bg-black/50 justify-start sm:justify-center"
+                >
+                  <a href={siteData.about.ctfTimeUrl} target="_blank" rel="noopener noreferrer">
+                    <Flag className="mr-2 h-4 w-4 shrink-0" /> CTFtime
+                  </a>
+                </Button>
+
+                <Button
+                  asChild
+                  variant="outline"
+                  className="border-primary/60 text-primary hover:bg-primary/10 hover:border-primary rounded-none px-4 py-2.5 text-sm bg-black/50 justify-start sm:justify-center"
+                >
+                  <a href={siteData.about.hackerOneUrl} target="_blank" rel="noopener noreferrer">
+                    <Bug className="mr-2 h-4 w-4 shrink-0" /> HackerOne
+                  </a>
+                </Button>
+
+                <Button
+                  asChild
+                  variant="outline"
+                  className="border-primary/60 text-primary hover:bg-primary/10 hover:border-primary rounded-none px-4 py-2.5 text-sm bg-black/50 justify-start sm:justify-center"
+                >
+                  <a href={siteData.about.tryHackMeUrl} target="_blank" rel="noopener noreferrer">
+                    <Cloud className="mr-2 h-4 w-4 shrink-0" /> TryHackMe
+                  </a>
+                </Button>
+
+                <Button
+                  asChild
+                  variant="outline"
+                  className="border-primary/60 text-primary hover:bg-primary/10 hover:border-primary rounded-none px-4 py-2.5 text-sm bg-black/50 justify-start sm:justify-center"
+                >
+                  <a href={siteData.about.hackTheBoxUrl} target="_blank" rel="noopener noreferrer">
+                    <Box className="mr-2 h-4 w-4 shrink-0" /> Hack The Box
+                  </a>
+                </Button>
+              </div>
             </motion.div>
           </div>
         </div>
@@ -486,7 +494,7 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
           <div className="mt-12 text-center text-gray-500 text-sm">
             <p>Designed && Built by Serafim Lupan;</p>
             <p>Copyright (c) 2022-2026 Lupan Serafim (<a href="https://serafimlupan.com">serafimlupan.com</a>)</p>
-            <p className="mt-2 font-mono text-xs opacity-50">System.Version: 1.8.27</p>
+            <p className="mt-2 font-mono text-xs opacity-50">System.Version: 1.9.29</p>
           </div>
         </div>
       </section>
