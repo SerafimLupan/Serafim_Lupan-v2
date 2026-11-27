@@ -6,8 +6,7 @@ import { GlitchText } from "@/components/GlitchText";
 import { siteData } from "@/data";
 import { 
   Terminal, 
-  Github, 
-  Download, 
+  Download, Github, Flag,
   ChevronRight,   Code, 
   Cpu, 
   ShieldAlert, 
@@ -145,6 +144,15 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
                   <Github className="mr-2 h-5 w-5" /> GitHub Profile
                 </a>
               </Button>
+              <Button
+              asChild
+              variant="outline"
+              className="border-primary text-primary hover:bg-primary/10 rounded-none px-8 py-6 text-lg bg-transparent"
+            >
+              <a href={siteData.about.ctfTimeUrl} target="_blank" rel="noopener noreferrer">
+                <Flag className="mr-2 h-5 w-5" /> CTFtime Profile
+              </a>
+            </Button>
             </motion.div>
           </div>
         </div>
