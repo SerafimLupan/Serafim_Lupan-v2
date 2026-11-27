@@ -6,7 +6,7 @@ import { GlitchText } from "@/components/GlitchText";
 import { siteData } from "@/data";
 import { 
   Terminal, 
-  Download, Github, Gitlab, Flag, Bug, Cloud, Box,
+  FileText, Github, Gitlab, Flag, Bug, Cloud, Box,
   ChevronRight,   Code, 
   Cpu, 
   ShieldAlert, 
@@ -39,6 +39,22 @@ export default function Home() {
       message: "",
     },
   });
+
+  const handleRequestCV = () => {
+  form.setValue("message", "Hello, I would like to request your full CV.", {
+    shouldValidate: true,
+    shouldDirty: true,
+  });
+
+  const contactSection = document.getElementById("contact");
+  if (contactSection) {
+    contactSection.scrollIntoView({ behavior: "smooth" });
+  }
+
+  setTimeout(() => {
+    form.setFocus("name");
+  }, 600);
+};
 
 const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
   const formData = {
@@ -129,12 +145,11 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
             >
               <div className="flex flex-col sm:flex-row flex-wrap gap-3">
                 <Button
-                  asChild
-                  className="bg-primary text-black hover:bg-primary/80 font-bold border-2 border-primary rounded-none px-6 py-5 text-base"
+                  type="button"
+                  onClick={handleRequestCV}
+                  className="bg-primary text-black hover:bg-primary/80 font-bold border-2 border-primary rounded-none px-6 py-5 text-base cursor-pointer"
                 >
-                  <a href={siteData.cv.path} download={siteData.cv.filename}>
-                    <Download className="mr-2 h-5 w-5" /> Download CV
-                  </a>
+                  <FileText className="mr-2 h-5 w-5" /> Request CV
                 </Button>
 
                 <Button
@@ -494,7 +509,7 @@ const onSubmit = async (data: z.infer<typeof insertContactMessageSchema>) => {
           <div className="mt-12 text-center text-gray-500 text-sm">
             <p>Designed && Built by Serafim Lupan;</p>
             <p>Copyright (c) 2022-2026 Lupan Serafim (<a href="https://serafimlupan.com">serafimlupan.com</a>)</p>
-            <p className="mt-2 font-mono text-xs opacity-50">System.Version: 1.9.29</p>
+            <p className="mt-2 font-mono text-xs opacity-50">System.Version: 1.10.29</p>
           </div>
         </div>
       </section>
