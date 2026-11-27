@@ -38,7 +38,8 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
   
   about: {
     summary: "Passionate cybersecurity enthusiast and penetration tester with a strong foundation in offensive security, scripting, and system administration. I specialize in identifying vulnerabilities, network exploitation, and developing custom security tools. Dedicated to continuous learning in the ever-evolving landscape of information security.",
-    githubUrl: "https://github.com/SerafimLupan"
+    githubUrl: "https://github.com/SerafimLupan",
+    ctfTimeUrl: "https://ctftime.org/user/227334"
   },
 
   experience: {
