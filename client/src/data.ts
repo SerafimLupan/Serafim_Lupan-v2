@@ -42,7 +42,8 @@ P"Ybmmd"   \`Mbmmd' .JMML.   \`Moo9^Yo..JMML.  .JMML..JMML  JMML  JMML.    .JMMm
     gitlabUrl: "https://gitlab.com/SerafimLupan",
     ctfTimeUrl: "https://ctftime.org/user/227334",
     hackerOneUrl: "https://hackerone.com/tirasp0l?type=user",
-    tryHackMeUrl: "https://hackerone.com/tirasp0l?type=user"
+    tryHackMeUrl: "https://tryhackme.com/p/Tirasp0l",
+    hackTheBoxUrl: "https://profile.hackthebox.com/profile/019f3477-8efb-71b2-a823-424524e322ae"
   },
 
   experience: {
